@@ -1,0 +1,70 @@
+{
+  "Metadata": {
+    "title": "Developer Name | Portfolio",
+    "description": "Personal portfolio of a software developer, featuring projects, skills, and professional experience."
+  },
+  "Nav": {
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "experience": "Experience",
+    "education": "Education",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "greeting": "Hi, I'm",
+    "name": "Developer Name",
+    "role": "Software Developer",
+    "tagline": "I build modern, fast, and accessible digital products for the web.",
+    "ctaContact": "Get in touch",
+    "ctaProjects": "View projects",
+    "ctaResume": "Download resume"
+  },
+  "About": {
+    "title": "About me",
+    "bio": "Content to be filled in from the client's resume.",
+    "socialLinks": {
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "email": "Email"
+    }
+  },
+  "Projects": {
+    "title": "Projects",
+    "subtitle": "A selection of real repositories, fetched directly from GitHub.",
+    "viewCode": "View code",
+    "viewDemo": "View demo",
+    "loading": "Loading projects...",
+    "error": "Could not load projects right now."
+  },
+  "Skills": {
+    "title": "Skills",
+    "subtitle": "Technologies and tools I have experience with."
+  },
+  "Experience": {
+    "title": "Professional Experience",
+    "subtitle": "My professional journey over the years.",
+    "present": "Present"
+  },
+  "Education": {
+    "title": "Education",
+    "subtitle": "Academic background and complementary courses."
+  },
+  "Contact": {
+    "title": "Contact",
+    "subtitle": "Let's talk about your next project.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send message",
+      "sending": "Sending...",
+      "success": "Message sent successfully! I'll get back to you soon.",
+      "error": "Something went wrong while sending the message. Please try again."
+    }
+  },
+  "Footer": {
+    "rights": "All rights reserved.",
+    "builtWith": "Built with Next.js and Tailwind CSS."
+  }
+}

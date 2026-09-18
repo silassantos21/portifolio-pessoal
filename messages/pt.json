@@ -1,0 +1,70 @@
+{
+  "Metadata": {
+    "title": "Nome do Desenvolvedor | Portfólio",
+    "description": "Portfólio pessoal de um desenvolvedor de software, com projetos, habilidades e experiência profissional."
+  },
+  "Nav": {
+    "about": "Sobre",
+    "projects": "Projetos",
+    "skills": "Habilidades",
+    "experience": "Experiência",
+    "education": "Educação",
+    "contact": "Contato"
+  },
+  "Hero": {
+    "greeting": "Olá, eu sou",
+    "name": "Nome do Desenvolvedor",
+    "role": "Desenvolvedor de Software",
+    "tagline": "Construo produtos digitais modernos, rápidos e acessíveis para web.",
+    "ctaContact": "Fale comigo",
+    "ctaProjects": "Ver projetos",
+    "ctaResume": "Baixar currículo"
+  },
+  "About": {
+    "title": "Sobre mim",
+    "bio": "Conteúdo a ser preenchido a partir do currículo do cliente.",
+    "socialLinks": {
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "email": "E-mail"
+    }
+  },
+  "Projects": {
+    "title": "Projetos",
+    "subtitle": "Uma seleção de repositórios reais, buscados diretamente do GitHub.",
+    "viewCode": "Ver código",
+    "viewDemo": "Ver demonstração",
+    "loading": "Carregando projetos...",
+    "error": "Não foi possível carregar os projetos no momento."
+  },
+  "Skills": {
+    "title": "Habilidades",
+    "subtitle": "Tecnologias e ferramentas com as quais tenho experiência."
+  },
+  "Experience": {
+    "title": "Experiência Profissional",
+    "subtitle": "Minha trajetória profissional ao longo dos anos.",
+    "present": "Atual"
+  },
+  "Education": {
+    "title": "Educação",
+    "subtitle": "Formação acadêmica e cursos complementares."
+  },
+  "Contact": {
+    "title": "Contato",
+    "subtitle": "Vamos conversar sobre o seu próximo projeto.",
+    "form": {
+      "name": "Nome",
+      "email": "E-mail",
+      "message": "Mensagem",
+      "submit": "Enviar mensagem",
+      "sending": "Enviando...",
+      "success": "Mensagem enviada com sucesso! Retornarei em breve.",
+      "error": "Ocorreu um erro ao enviar a mensagem. Tente novamente."
+    }
+  },
+  "Footer": {
+    "rights": "Todos os direitos reservados.",
+    "builtWith": "Desenvolvido com Next.js e Tailwind CSS."
+  }
+}
