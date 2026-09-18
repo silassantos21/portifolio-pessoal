@@ -22,6 +22,7 @@
   },
   "About": {
     "title": "Sobre mim",
+    "subtitle": "Um pouco sobre minha trajetória e paixão por tecnologia.",
     "bio": "Conteúdo a ser preenchido a partir do currículo do cliente.",
     "socialLinks": {
       "github": "GitHub",
