@@ -45,11 +45,33 @@
   "Experience": {
     "title": "Professional Experience",
     "subtitle": "My professional journey over the years.",
-    "present": "Present"
+    "present": "Present",
+    "items": [
+      {
+        "role": "Role to be defined",
+        "company": "Company to be defined",
+        "period": "0000 — Present",
+        "description": "Professional experience description to be filled in from the client's resume."
+      },
+      {
+        "role": "Role to be defined",
+        "company": "Company to be defined",
+        "period": "0000 — 0000",
+        "description": "Professional experience description to be filled in from the client's resume."
+      }
+    ]
   },
   "Education": {
     "title": "Education",
-    "subtitle": "Academic background and complementary courses."
+    "subtitle": "Academic background and complementary courses.",
+    "items": [
+      {
+        "degree": "Degree or course to be defined",
+        "institution": "Institution to be defined",
+        "period": "0000 — 0000",
+        "description": "Education description to be filled in from the client's resume."
+      }
+    ]
   },
   "Contact": {
     "title": "Contact",

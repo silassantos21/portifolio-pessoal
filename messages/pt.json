@@ -45,11 +45,33 @@
   "Experience": {
     "title": "Experiência Profissional",
     "subtitle": "Minha trajetória profissional ao longo dos anos.",
-    "present": "Atual"
+    "present": "Atual",
+    "items": [
+      {
+        "role": "Cargo a definir",
+        "company": "Empresa a definir",
+        "period": "0000 — Atual",
+        "description": "Descrição da experiência profissional a ser preenchida a partir do currículo do cliente."
+      },
+      {
+        "role": "Cargo a definir",
+        "company": "Empresa a definir",
+        "period": "0000 — 0000",
+        "description": "Descrição da experiência profissional a ser preenchida a partir do currículo do cliente."
+      }
+    ]
   },
   "Education": {
     "title": "Educação",
-    "subtitle": "Formação acadêmica e cursos complementares."
+    "subtitle": "Formação acadêmica e cursos complementares.",
+    "items": [
+      {
+        "degree": "Curso ou formação a definir",
+        "institution": "Instituição a definir",
+        "period": "0000 — 0000",
+        "description": "Descrição da formação a ser preenchida a partir do currículo do cliente."
+      }
+    ]
   },
   "Contact": {
     "title": "Contato",
