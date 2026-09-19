@@ -46,3 +46,7 @@ next-env.d.ts
 coverage/
 .nyc_output/
 htmlcov/
+
+# Materiais pessoais brutos (currículo, carta de apresentação em PDF)
+# usados apenas como fonte para popular o conteúdo do site — não versionar.
+dados_portifolio/

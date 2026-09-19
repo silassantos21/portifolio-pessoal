@@ -6,6 +6,8 @@ import { useTranslations } from "next-intl";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 
+import { SITE_CONFIG } from "@/config/site";
+
 export function AboutSection() {
   const t = useTranslations("About");
 
@@ -34,21 +36,25 @@ export function AboutSection() {
 
           <div className="mt-6 flex items-center gap-4">
             <a
-              href="#"
+              href={SITE_CONFIG.github}
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label={t("socialLinks.github")}
               className="text-muted-foreground transition-colors hover:text-foreground"
             >
               <FaGithub className="size-5" />
             </a>
             <a
-              href="#"
+              href={SITE_CONFIG.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label={t("socialLinks.linkedin")}
               className="text-muted-foreground transition-colors hover:text-foreground"
             >
               <FaLinkedin className="size-5" />
             </a>
             <a
-              href="#"
+              href={`mailto:${SITE_CONFIG.email}`}
               aria-label={t("socialLinks.email")}
               className="text-muted-foreground transition-colors hover:text-foreground"
             >

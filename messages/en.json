@@ -1,7 +1,7 @@
 {
   "Metadata": {
-    "title": "Developer Name | Portfolio",
-    "description": "Personal portfolio of a software developer, featuring projects, skills, and professional experience."
+    "title": "Silas Ribeiro dos Santos | Software Developer",
+    "description": "Portfolio of Silas Ribeiro dos Santos, a full-stack software developer specialized in Vue.js, Angular, Java, and Python, with experience building corporate systems and APIs."
   },
   "Nav": {
     "about": "About",
@@ -13,17 +13,17 @@
   },
   "Hero": {
     "greeting": "Hi, I'm",
-    "name": "Developer Name",
+    "name": "Silas Ribeiro dos Santos",
     "role": "Software Developer",
-    "tagline": "I build modern, fast, and accessible digital products for the web.",
+    "tagline": "I build corporate systems, APIs, and robust web applications, combining analytical thinking with strong software engineering practices.",
     "ctaContact": "Get in touch",
     "ctaProjects": "View projects",
     "ctaResume": "Download resume"
   },
   "About": {
     "title": "About me",
-    "subtitle": "A little about my journey and passion for technology.",
-    "bio": "Content to be filled in from the client's resume.",
+    "subtitle": "A mathematician by training, a software engineer by choice.",
+    "bio": "I'm a Computer Networks Technician, graduated in Mathematics, and hold a postgraduate degree in Software Engineering, working in full-stack development for several years. Throughout my career, I've contributed to corporate systems across segments like food delivery, payroll-deductible credit, and booking platforms, working with technologies such as Vue.js, Angular, Java, Spring Boot, Python, and Django. I currently work as an Analyst Developer II at Qintess, contributing to systems used by Brazil's Ministry of Justice. I have a strong interest in software architecture, Clean Code, and Design Patterns, and I use tools like GitHub Copilot and Claude Code daily to ship better code, faster, without compromising quality.",
     "socialLinks": {
       "github": "GitHub",
       "linkedin": "LinkedIn",
@@ -48,28 +48,58 @@
     "present": "Present",
     "items": [
       {
-        "role": "Role to be defined",
-        "company": "Company to be defined",
-        "period": "0000 — Present",
-        "description": "Professional experience description to be filled in from the client's resume."
+        "role": "Analyst Developer II",
+        "company": "Qintess",
+        "period": "2023 — Present",
+        "description": "Working on systems used by Brazil's Ministry of Justice, developing new features, maintaining applications, managing deployments on Azure, and handling file storage via Azure Blob Storage. Technologies: Java, Spring Boot, Python, Django, Angular, Vue.js, and Keycloak."
       },
       {
-        "role": "Role to be defined",
-        "company": "Company to be defined",
-        "period": "0000 — 0000",
-        "description": "Professional experience description to be filled in from the client's resume."
+        "role": "Junior Software Engineer",
+        "company": "Neowrk",
+        "period": "2022 — 2023",
+        "description": "Developed booking management systems for rooms, parking spaces, tables, and lockers, customized system styling, and reviewed code. Technologies: Vue.js, Vuex, Vue Material, and Test Utils."
+      },
+      {
+        "role": "Frontend Developer",
+        "company": "Start Consig",
+        "period": "2021 — 2022",
+        "description": "Built payroll-deductible credit sales and dialer management systems, including analytics dashboards and a status-verification API. Technologies: Vue.js, Vuex, and Quasar Framework."
+      },
+      {
+        "role": "Full-Stack Developer",
+        "company": "Teknisa Software",
+        "period": "2017 — 2019",
+        "description": "Built a food delivery restaurant management system, an order-status verification API, a card reconciliation system, and automated microservices. Technologies: AngularJS, PHP, SQL, and Oracle."
+      },
+      {
+        "role": "Intern Developer",
+        "company": "Teknisa Software",
+        "period": "2016 — 2017",
+        "description": "Built screens for a food delivery restaurant management software and handled branch versioning on GitLab. Technologies: AngularJS, PHP, SQL, and Oracle."
       }
     ]
   },
   "Education": {
     "title": "Education",
-    "subtitle": "Academic background and complementary courses.",
+    "subtitle": "Academic background and capstone projects.",
     "items": [
       {
-        "degree": "Degree or course to be defined",
-        "institution": "Institution to be defined",
-        "period": "0000 — 0000",
-        "description": "Education description to be filled in from the client's resume."
+        "degree": "Postgraduate Degree in Software Engineering",
+        "institution": "Pontifícia Universidade Católica de Minas Gerais (PUC Minas)",
+        "period": "2022 — 2023",
+        "description": "Specialization focused on software architecture, code quality, and engineering best practices."
+      },
+      {
+        "degree": "Bachelor's Degree in Mathematics",
+        "institution": "Universidade do Estado de Minas Gerais (UEMG) — Ibirité",
+        "period": "2017 — 2021",
+        "description": "Capstone project: a Scratch application to help teachers introduce basic operations and geometry to 6th-grade students."
+      },
+      {
+        "degree": "High School Diploma and Technical Degree in Computer Networks",
+        "institution": "Centro Federal de Educação Tecnológica de Minas Gerais (CEFET-MG)",
+        "period": "2012 — 2015",
+        "description": "Capstone project at Fundação Ezequiel Dias: a lab management system and website for LBTN (Natural Toxins Bioprospecting Laboratory)."
       }
     ]
   },

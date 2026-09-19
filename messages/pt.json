@@ -1,7 +1,7 @@
 {
   "Metadata": {
-    "title": "Nome do Desenvolvedor | Portfólio",
-    "description": "Portfólio pessoal de um desenvolvedor de software, com projetos, habilidades e experiência profissional."
+    "title": "Silas Ribeiro dos Santos | Desenvolvedor de Software",
+    "description": "Portfólio de Silas Ribeiro dos Santos, desenvolvedor de software full-stack especializado em Vue.js, Angular, Java e Python, com experiência em sistemas corporativos e APIs."
   },
   "Nav": {
     "about": "Sobre",
@@ -13,17 +13,17 @@
   },
   "Hero": {
     "greeting": "Olá, eu sou",
-    "name": "Nome do Desenvolvedor",
+    "name": "Silas Ribeiro dos Santos",
     "role": "Desenvolvedor de Software",
-    "tagline": "Construo produtos digitais modernos, rápidos e acessíveis para web.",
+    "tagline": "Construo sistemas corporativos, APIs e aplicações web robustas, unindo raciocínio analítico e boas práticas de engenharia de software.",
     "ctaContact": "Fale comigo",
     "ctaProjects": "Ver projetos",
     "ctaResume": "Baixar currículo"
   },
   "About": {
     "title": "Sobre mim",
-    "subtitle": "Um pouco sobre minha trajetória e paixão por tecnologia.",
-    "bio": "Conteúdo a ser preenchido a partir do currículo do cliente.",
+    "subtitle": "Matemático de formação, engenheiro de software por escolha.",
+    "bio": "Sou Técnico em Redes de Computadores, formado em Matemática e pós-graduado em Engenharia de Software, atuando no mercado de desenvolvimento full-stack há vários anos. Ao longo da minha carreira, contribuí para sistemas corporativos em segmentos como delivery, crédito consignado e reservas, trabalhando com tecnologias como Vue.js, Angular, Java, Spring Boot, Python e Django. Atualmente sou Analista Desenvolvedor II na Qintess, atuando em sistemas do Ministério da Justiça do Brasil. Tenho grande interesse em arquitetura de software, Clean Code e Design Patterns, e uso ferramentas como GitHub Copilot e Claude Code no dia a dia para entregar código melhor, mais rápido, sem abrir mão da qualidade.",
     "socialLinks": {
       "github": "GitHub",
       "linkedin": "LinkedIn",
@@ -48,28 +48,58 @@
     "present": "Atual",
     "items": [
       {
-        "role": "Cargo a definir",
-        "company": "Empresa a definir",
-        "period": "0000 — Atual",
-        "description": "Descrição da experiência profissional a ser preenchida a partir do currículo do cliente."
+        "role": "Analista Desenvolvedor II",
+        "company": "Qintess",
+        "period": "2023 — Atual",
+        "description": "Atuação em sistemas do Ministério da Justiça do Brasil, com desenvolvimento de novas funcionalidades, manutenção de aplicações, gerenciamento de deploys no Azure e armazenamento de arquivos via Azure Blob Storage. Tecnologias: Java, Spring Boot, Python, Django, Angular, Vue.js e Keycloak."
       },
       {
-        "role": "Cargo a definir",
-        "company": "Empresa a definir",
-        "period": "0000 — 0000",
-        "description": "Descrição da experiência profissional a ser preenchida a partir do currículo do cliente."
+        "role": "Engenheiro de Software Júnior",
+        "company": "Neowrk",
+        "period": "2022 — 2023",
+        "description": "Desenvolvimento de sistemas de gerenciamento de reservas (salas, estacionamentos, mesas e armários), customização de estilização e revisão de código. Tecnologias: Vue.js, Vuex, Vue Material e Test Utils."
+      },
+      {
+        "role": "Desenvolvedor Frontend",
+        "company": "Start Consig",
+        "period": "2021 — 2022",
+        "description": "Desenvolvimento de sistemas de venda de crédito consignado e gerenciamento de discadoras, incluindo dashboards analíticos e API de verificação de status. Tecnologias: Vue.js, Vuex e Quasar Framework."
+      },
+      {
+        "role": "Desenvolvedor Full-Stack",
+        "company": "Teknisa Software",
+        "period": "2017 — 2019",
+        "description": "Desenvolvimento de sistema de gerenciamento de restaurante delivery, API de verificação de status de pedidos, sistema de conciliação de cartões e microsserviços automatizados. Tecnologias: AngularJS, PHP, SQL e Oracle."
+      },
+      {
+        "role": "Desenvolvedor Estagiário",
+        "company": "Teknisa Software",
+        "period": "2016 — 2017",
+        "description": "Programação de telas para um software de gerenciamento de restaurante delivery e versionamento de branches no GitLab. Tecnologias: AngularJS, PHP, SQL e Oracle."
       }
     ]
   },
   "Education": {
     "title": "Educação",
-    "subtitle": "Formação acadêmica e cursos complementares.",
+    "subtitle": "Formação acadêmica e trabalhos de conclusão de curso.",
     "items": [
       {
-        "degree": "Curso ou formação a definir",
-        "institution": "Instituição a definir",
-        "period": "0000 — 0000",
-        "description": "Descrição da formação a ser preenchida a partir do currículo do cliente."
+        "degree": "Pós-Graduação em Engenharia de Software",
+        "institution": "Pontifícia Universidade Católica de Minas Gerais (PUC Minas)",
+        "period": "2022 — 2023",
+        "description": "Especialização com foco em arquitetura de software, qualidade de código e boas práticas de engenharia."
+      },
+      {
+        "degree": "Graduação em Matemática",
+        "institution": "Universidade do Estado de Minas Gerais (UEMG) — Ibirité",
+        "period": "2017 — 2021",
+        "description": "Trabalho de conclusão de curso: desenvolvimento de um aplicativo na plataforma Scratch para auxiliar professores no ensino de operações básicas e introdução à geometria em turmas do 6º ano."
+      },
+      {
+        "degree": "Ensino Médio e Técnico em Redes de Computadores",
+        "institution": "Centro Federal de Educação Tecnológica de Minas Gerais (CEFET-MG)",
+        "period": "2012 — 2015",
+        "description": "Trabalho de conclusão de curso na Fundação Ezequiel Dias: desenvolvimento de um sistema de gerenciamento laboratorial e website para o LBTN (Laboratório de Bioprospecção de Toxinas Naturais)."
       }
     ]
   },
