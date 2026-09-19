@@ -1,12 +1,14 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { Download } from "lucide-react";
+import { useLocale, useTranslations } from "next-intl";
 
 import { Button } from "@/components/ui/button";
 import { useTypewriter } from "@/hooks/use-typewriter";
 
 export function HeroSection() {
   const t = useTranslations("Hero");
+  const locale = useLocale();
   const role = useTypewriter(t("role"));
 
   return (
@@ -20,12 +22,18 @@ export function HeroSection() {
         <span className="animate-pulse">|</span>
       </p>
       <p className="max-w-xl text-muted-foreground">{t("tagline")}</p>
-      <div className="flex gap-4">
+      <div className="flex flex-wrap justify-center gap-4">
         <Button asChild>
           <a href="#contact">{t("ctaContact")}</a>
         </Button>
         <Button variant="outline" asChild>
           <a href="#projects">{t("ctaProjects")}</a>
+        </Button>
+        <Button variant="ghost" asChild>
+          <a href={`/resume-${locale}.pdf`} download>
+            <Download className="size-4" aria-hidden="true" />
+            {t("ctaResume")}
+          </a>
         </Button>
       </div>
     </section>

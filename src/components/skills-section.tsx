@@ -25,6 +25,8 @@ import {
   SiQuasar,
   SiReact,
   SiSpringboot,
+  SiTailwindcss,
+  SiVite,
   SiVuedotjs,
 } from "react-icons/si";
 
@@ -36,6 +38,8 @@ const SKILLS = [
   { name: "PHP", icon: SiPhp },
   { name: "HTML5", icon: SiHtml5 },
   { name: "CSS", icon: SiCss },
+  { name: "Tailwind CSS", icon: SiTailwindcss },
+  { name: "Vite", icon: SiVite },
   { name: "Quasar", icon: SiQuasar },
   { name: "Pinia", icon: SiPinia },
   { name: "Ionic", icon: SiIonic },

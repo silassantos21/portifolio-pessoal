@@ -50,20 +50,32 @@
       {
         "role": "Analyst Developer II",
         "company": "Qintess",
-        "period": "2023 — Present",
-        "description": "Working on systems used by Brazil's Ministry of Justice, developing new features, maintaining applications, managing deployments on Azure, and handling file storage via Azure Blob Storage. Technologies: Java, Spring Boot, Python, Django, Angular, Vue.js, and Keycloak."
+        "period": "2024 — Present",
+        "description": "Supporting systems used by Brazil's Ministry of Justice, updating branches and deployments via Azure DevOps, supporting a payment system with facial recognition, and building landing pages and CRM systems using Claude Code and the Spec-Driven Development methodology. Technologies: DBeaver, Java, Spring Boot, Python, Django, Angular, Vue.js, and Keycloak."
+      },
+      {
+        "role": "Frontend Developer",
+        "company": "Novadata",
+        "period": "2023 — 2024",
+        "description": "Supported a payroll-deductible loan simulation system (FGTS), versioning and deploying systems to testing and production environments. Technologies: Vue.js, Pinia, Tailwind CSS, Quasar, and Vite."
       },
       {
         "role": "Junior Software Engineer",
         "company": "Neowrk",
         "period": "2022 — 2023",
-        "description": "Developed booking management systems for rooms, parking spaces, tables, and lockers, customized system styling, and reviewed code. Technologies: Vue.js, Vuex, Vue Material, and Test Utils."
+        "description": "Developed booking management systems for rooms, parking spaces, tables, and lockers, created unit tests, customized system styling, and reviewed code. Technologies: Vue.js, Vuex, Vue Material, and Test Utils."
       },
       {
         "role": "Frontend Developer",
         "company": "Start Consig",
         "period": "2021 — 2022",
         "description": "Built payroll-deductible credit sales and dialer management systems, including analytics dashboards and a status-verification API. Technologies: Vue.js, Vuex, and Quasar Framework."
+      },
+      {
+        "role": "Math Teacher (Internship)",
+        "company": "Assprom",
+        "period": "2019 — 2020",
+        "description": "Taught mathematics to young apprentices at the Administrative City of Minas Gerais."
       },
       {
         "role": "Full-Stack Developer",

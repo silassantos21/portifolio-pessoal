@@ -50,20 +50,32 @@
       {
         "role": "Analista Desenvolvedor II",
         "company": "Qintess",
-        "period": "2023 — Atual",
-        "description": "Atuação em sistemas do Ministério da Justiça do Brasil, com desenvolvimento de novas funcionalidades, manutenção de aplicações, gerenciamento de deploys no Azure e armazenamento de arquivos via Azure Blob Storage. Tecnologias: Java, Spring Boot, Python, Django, Angular, Vue.js e Keycloak."
+        "period": "2024 — Atual",
+        "description": "Suporte a sistemas do Ministério da Justiça do Brasil, com atualização de branches e deploys via Azure DevOps, suporte a sistema de pagamentos com reconhecimento facial, e desenvolvimento de landing pages e sistemas de CRM utilizando Claude Code e a metodologia Spec-Driven Development. Tecnologias: DBeaver, Java, Spring Boot, Python, Django, Angular, Vue.js e Keycloak."
+      },
+      {
+        "role": "Desenvolvedor Frontend",
+        "company": "Novadata",
+        "period": "2023 — 2024",
+        "description": "Suporte a sistema de simulação de empréstimo consignado via FGTS, com versionamento e deploy de sistemas em ambientes de teste e produção. Tecnologias: Vue.js, Pinia, Tailwind CSS, Quasar e Vite."
       },
       {
         "role": "Engenheiro de Software Júnior",
         "company": "Neowrk",
         "period": "2022 — 2023",
-        "description": "Desenvolvimento de sistemas de gerenciamento de reservas (salas, estacionamentos, mesas e armários), customização de estilização e revisão de código. Tecnologias: Vue.js, Vuex, Vue Material e Test Utils."
+        "description": "Desenvolvimento de sistemas de gerenciamento de reservas (salas, estacionamentos, mesas e armários), criação de testes unitários, customização de estilização e revisão de código. Tecnologias: Vue.js, Vuex, Vue Material e Test Utils."
       },
       {
         "role": "Desenvolvedor Frontend",
         "company": "Start Consig",
         "period": "2021 — 2022",
         "description": "Desenvolvimento de sistemas de venda de crédito consignado e gerenciamento de discadoras, incluindo dashboards analíticos e API de verificação de status. Tecnologias: Vue.js, Vuex e Quasar Framework."
+      },
+      {
+        "role": "Professor de Matemática (Estágio)",
+        "company": "Assprom",
+        "period": "2019 — 2020",
+        "description": "Professor de jovens aprendizes, ministrando aulas de matemática na Cidade Administrativa de Minas Gerais."
       },
       {
         "role": "Desenvolvedor Full-Stack",
