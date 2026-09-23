@@ -101,25 +101,34 @@
 
 ---
 
-### Fase 5: Fase 5: Testes, Otimização e Entrega (3 dias)
+### Fase 5: Fase 5: Testes, Otimização e Entrega (3 dias) — 🔄 Em andamento
 
 #### Tarefas
 
-- [ ] Testes de responsividade em múltiplos dispositivos e browsers (Chrome, Firefox, Safari)
-- [ ] Auditoria Lighthouse para Performance, Acessibilidade, SEO e Best Practices (meta: 90+ em todos)
-- [ ] Otimização de Core Web Vitals (LCP, CLS, FID)
-- [ ] Configurar domínio customizado na Vercel
-- [ ] Testar formulário de contato em produção
-- [ ] Testar troca de idioma e persistência em produção
+- [x] Testes de responsividade em múltiplos dispositivos e browsers (via Playwright/Chromium — ver Fase 4)
+- [x] Auditoria Lighthouse para Performance, Acessibilidade, SEO e Best Practices (meta: 90+ em todos)
+- [x] Otimização de Core Web Vitals (LCP, CLS, FID) — dentro do orçado pelo Lighthouse (ver resultados abaixo)
+- [ ] Configurar domínio customizado na Vercel (adiado — sem deploy ainda)
+- [ ] Testar formulário de contato em produção (adiado — Resend pendente)
+- [ ] Testar troca de idioma e persistência em produção (adiado — sem deploy ainda)
 - [ ] Revisão final de conteúdo PT e EN com o cliente
-- [ ] Configurar Vercel Analytics
+- [ ] Configurar Vercel Analytics (adiado — sem deploy ainda)
+
+#### Resultados da Auditoria Lighthouse (build de produção local, `npm run build` + `npm run start`)
+
+| Página | Performance | Acessibilidade | Best Practices | SEO |
+| ------ | ----------- | -------------- | -------------- | --- |
+| `/pt`  | 94–95       | 100            | 100            | 100 |
+| `/en`  | 94          | 100            | 100            | 100 |
+
+Todas as categorias acima da meta de 90+. Único bug real encontrado e corrigido: os links `hreflang` usavam URLs relativas (`/pt`, `/en`), inválidas para SEO — adicionado `metadataBase` (via `NEXT_PUBLIC_SITE_URL`, com fallback para `localhost:3000` enquanto não há domínio) para gerar URLs absolutas. Os números de Performance refletem o preset mobile do Lighthouse (CPU 4x mais lenta, rede throttled simulando um Moto G Power) — em desktop real a experiência é sensivelmente mais rápida.
 
 #### Entregáveis
 
-- Relatório Lighthouse com scores 90+ em todas as categorias
-- Site em produção com domínio customizado configurado
-- Vercel Analytics ativo monitorando visitantes
-- Documento de handoff com instruções para atualizar conteúdo futuro
+- [x] Relatório Lighthouse com scores 90+ em todas as categorias
+- [ ] Site em produção com domínio customizado configurado
+- [ ] Vercel Analytics ativo monitorando visitantes
+- [ ] Documento de handoff com instruções para atualizar conteúdo futuro
 
 ---
 

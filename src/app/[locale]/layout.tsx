@@ -7,6 +7,7 @@ import { routing } from "@/i18n/routing";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
+import { SITE_CONFIG } from "@/config/site";
 import "../globals.css";
 
 const geistSans = localFont({
@@ -33,6 +34,7 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "Metadata" });
 
   return {
+    metadataBase: new URL(SITE_CONFIG.url),
     title: t("title"),
     description: t("description"),
     alternates: {

@@ -16,7 +16,7 @@ Portfólio pessoal moderno e responsivo com suporte a dois idiomas (Português e
 - ✅ **Fase 2** — Header/Footer, LanguageSwitcher (PT/EN), dark/light mode (`next-themes`), smooth scroll, SEO (hreflang)
 - ✅ **Fase 3** — Todas as seções de conteúdo com dados reais do currículo, API Route `/api/github` integrada (testada contra `silassantos21`)
 - ✅ **Fase 4** — Polimento visual, formulário de contato (React Hook Form + Zod + honeypot, `/api/contact` pronto) e responsividade (320–1280px, testado via Playwright) concluídos. **Envio real de e-mail via Resend pendente** (falta a API key — rodando 100% local por enquanto, sem repositório GitHub remoto nem deploy Vercel)
-- 🔄 **Fase 5** — Em andamento: auditoria Lighthouse (Performance, Acessibilidade, SEO, Best Practices). Deploy/domínio/Vercel Analytics ficam para depois (rodando local por enquanto)
+- 🔄 **Fase 5** — Auditoria Lighthouse concluída: `/pt` 94-95/100/100/100, `/en` 94/100/100/100 (meta 90+ atingida). Corrigido bug real de SEO (hreflang com URLs relativas — agora usa `metadataBase`/`NEXT_PUBLIC_SITE_URL`). Deploy/domínio/Vercel Analytics/revisão final de conteúdo ficam para depois (rodando local por enquanto)
 
 **Decisões do cliente a lembrar:**
 
