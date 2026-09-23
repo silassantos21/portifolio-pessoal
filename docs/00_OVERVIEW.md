@@ -49,7 +49,7 @@ Recrutadores técnicos nacionais e internacionais, empresas de tecnologia em bus
 - [ ] Formulário de contato com envio real de e-mail via Resend (UI/validação/honeypot prontos; envio real adiado pelo cliente — falta só a API key do Resend)
 - [x] Download de currículo PDF em PT e EN
 - [ ] Deploy na Vercel com domínio configurado (adiado — projeto rodando 100% local por enquanto)
-- [ ] Design responsivo mobile + desktop (testado em desktop; validação mobile/tablet pendente)
+- [x] Design responsivo mobile + desktop
 
 ## Funcionalidades Futuras (v2+)
 

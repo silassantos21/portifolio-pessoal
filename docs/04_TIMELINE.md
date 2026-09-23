@@ -79,7 +79,7 @@
 
 ---
 
-### Fase 4: Fase 4: Animações, Formulário de Contato e Polimento Visual (4 dias) — 🔄 Em andamento
+### Fase 4: Fase 4: Animações, Formulário de Contato e Polimento Visual (4 dias) — ✅ Concluída (exceto Resend)
 
 #### Tarefas
 
@@ -89,7 +89,7 @@
 - [x] Desenvolver seção/modal de formulário de contato com validação (React Hook Form + Zod)
 - [ ] Configurar Resend para envio de e-mails via API Route /api/contact (rota pronta, só falta a API key — adiado pelo cliente)
 - [x] Adicionar botão de download do currículo PDF (PT e EN)
-- [ ] Ajustes de responsividade mobile, tablet e desktop
+- [x] Ajustes de responsividade mobile, tablet e desktop (testado em 320/375/768/1024/1280px via Playwright; corrigido bug de colisão no Header em tablet e wrap dos links do ProjectCard)
 - [x] Otimização de imagens com next/image
 
 #### Entregáveis
