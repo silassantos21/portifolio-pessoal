@@ -86,8 +86,8 @@
 - [x] Implementar animações de entrada de seções com Framer Motion (scroll-triggered)
 - [x] Adicionar hover effects nos cards de projetos e skill badges
 - [x] Implementar transição suave na troca de idioma
-- [ ] Desenvolver seção/modal de formulário de contato com validação (React Hook Form + Zod) — em andamento
-- [ ] Configurar Resend para envio de e-mails via API Route /api/contact (adiado pelo cliente)
+- [x] Desenvolver seção/modal de formulário de contato com validação (React Hook Form + Zod)
+- [ ] Configurar Resend para envio de e-mails via API Route /api/contact (rota pronta, só falta a API key — adiado pelo cliente)
 - [x] Adicionar botão de download do currículo PDF (PT e EN)
 - [ ] Ajustes de responsividade mobile, tablet e desktop
 - [x] Otimização de imagens com next/image

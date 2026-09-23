@@ -15,7 +15,7 @@ Portfólio pessoal moderno e responsivo com suporte a dois idiomas (Português e
 - ✅ **Fase 1** — Setup Next.js 14 + TypeScript, Tailwind, shadcn/ui (estilo `new-york`, base Radix), next-intl, ESLint/Prettier/Husky
 - ✅ **Fase 2** — Header/Footer, LanguageSwitcher (PT/EN), dark/light mode (`next-themes`), smooth scroll, SEO (hreflang)
 - ✅ **Fase 3** — Todas as seções de conteúdo com dados reais do currículo, API Route `/api/github` integrada (testada contra `silassantos21`)
-- 🔄 **Fase 4** — Polimento visual concluído (acento indigo, foto real, glow, animações); **formulário de contato ainda pendente** (Resend adiado pelo cliente — rodando 100% local por enquanto, sem repositório GitHub remoto nem deploy Vercel)
+- 🔄 **Fase 4** — Polimento visual e formulário de contato (React Hook Form + Zod + honeypot, `/api/contact` pronto) concluídos; falta só responsividade mobile/tablet. **Envio real de e-mail via Resend pendente** (falta a API key — rodando 100% local por enquanto, sem repositório GitHub remoto nem deploy Vercel)
 - ⏳ **Fase 5** — Não iniciada (testes de responsividade, Lighthouse, deploy)
 
 **Decisões do cliente a lembrar:**
