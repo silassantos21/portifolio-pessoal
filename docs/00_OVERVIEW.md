@@ -40,16 +40,16 @@ Recrutadores técnicos nacionais e internacionais, empresas de tecnologia em bus
 
 ## Escopo do MVP (Mínimo Produto Viável)
 
-- [ ] Seção Hero com nome, título e CTA de contato
-- [ ] Seção Sobre Mim com bio e foto
-- [ ] Seção de Projetos integrada com GitHub API (mínimo 4-6 projetos exibidos)
-- [ ] Seção de Habilidades com grid de tecnologias
-- [ ] Seção de Experiência Profissional em timeline
-- [ ] Troca de idioma PT/EN funcional com next-intl
-- [ ] Formulário de contato com envio real de e-mail via Resend
-- [ ] Download de currículo PDF em PT e EN
-- [ ] Deploy na Vercel com domínio configurado
-- [ ] Design responsivo mobile + desktop
+- [x] Seção Hero com nome, título e CTA de contato
+- [x] Seção Sobre Mim com bio e foto
+- [x] Seção de Projetos integrada com GitHub API (mínimo 4-6 projetos exibidos)
+- [x] Seção de Habilidades com grid de tecnologias
+- [x] Seção de Experiência Profissional em timeline
+- [x] Troca de idioma PT/EN funcional com next-intl
+- [ ] Formulário de contato com envio real de e-mail via Resend (UI/validação em andamento; envio real adiado pelo cliente)
+- [x] Download de currículo PDF em PT e EN
+- [ ] Deploy na Vercel com domínio configurado (adiado — projeto rodando 100% local por enquanto)
+- [ ] Design responsivo mobile + desktop (testado em desktop; validação mobile/tablet pendente)
 
 ## Funcionalidades Futuras (v2+)
 

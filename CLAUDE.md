@@ -2,11 +2,26 @@
 
 ## Contexto do Projeto
 
-Portfólio pessoal moderno e responsivo com suporte a dois idiomas (Português e Inglês), apresentando projetos, habilidades, experiências e currículo do desenvolvedor. O site será gerado a partir do currículo existente do cliente e permitirá troca de idioma via bandeiras interativas. O design seguirá as referências fornecidas, com animações fluidas e visual impactante.
+Portfólio pessoal moderno e responsivo com suporte a dois idiomas (Português e Inglês), apresentando projetos, habilidades, experiências e currículo do desenvolvedor. O site foi gerado a partir do currículo real do cliente e permite troca de idioma via bandeiras interativas. O design segue as referências fornecidas, com animações fluidas e visual impactante.
+
+**Cliente:** Silas Ribeiro dos Santos — desenvolvedor de software full-stack (Vue.js, Angular, Java/Spring Boot, Python/Django). GitHub: [silassantos21](https://github.com/silassantos21).
 
 **Problema:** O desenvolvedor não possui uma presença digital profissional centralizada que apresente seus projetos do GitHub, habilidades técnicas e experiências de forma atraente e acessível para recrutadores e clientes em diferentes idiomas. Um currículo em PDF não é suficiente para demonstrar a qualidade do trabalho e a identidade visual profissional.
 
 **Público-alvo:** Recrutadores técnicos nacionais e internacionais, empresas de tecnologia em busca de desenvolvedores, clientes freelance e a própria comunidade de desenvolvimento. O portfólio em inglês amplia o alcance para o mercado global.
+
+## Status Atual (ver histórico completo em `git log`)
+
+- ✅ **Fase 1** — Setup Next.js 14 + TypeScript, Tailwind, shadcn/ui (estilo `new-york`, base Radix), next-intl, ESLint/Prettier/Husky
+- ✅ **Fase 2** — Header/Footer, LanguageSwitcher (PT/EN), dark/light mode (`next-themes`), smooth scroll, SEO (hreflang)
+- ✅ **Fase 3** — Todas as seções de conteúdo com dados reais do currículo, API Route `/api/github` integrada (testada contra `silassantos21`)
+- 🔄 **Fase 4** — Polimento visual concluído (acento indigo, foto real, glow, animações); **formulário de contato ainda pendente** (Resend adiado pelo cliente — rodando 100% local por enquanto, sem repositório GitHub remoto nem deploy Vercel)
+- ⏳ **Fase 5** — Não iniciada (testes de responsividade, Lighthouse, deploy)
+
+**Decisões do cliente a lembrar:**
+
+- Configuração do Resend (envio de e-mail do formulário de contato) fica para depois — construir a UI/validação agora, deixar o envio real como próximo passo isolado.
+- Repositório GitHub remoto e deploy na Vercel ficam para depois — trabalhar 100% local por enquanto.
 
 ## Stack Tecnológica
 
@@ -21,16 +36,21 @@ Detalhes completos em [docs/02_TECH_STACK.md](docs/02_TECH_STACK.md).
 
 ```
 portfolio-pessoal-bilingue/
-├── docs/           # Planejamento e documentação
-│   ├── 00_OVERVIEW.md
-│   ├── 01_ARCHITECTURE.md
-│   ├── 02_TECH_STACK.md
-│   ├── 03_AI_AGENTS.md
-│   ├── 04_TIMELINE.md
-│   ├── 05_COST_ANALYSIS.md
-│   └── 06_PRICING.md
-├── src/            # Código-fonte (a criar)
-└── CLAUDE.md       # Este arquivo
+├── docs/                     # Planejamento e documentação
+│   ├── 00_OVERVIEW.md .. 06_PRICING.md
+├── dados_portifolio/         # PDFs/foto pessoais (fonte do conteúdo, .gitignored)
+├── messages/                 # Traduções next-intl (pt.json, en.json)
+├── public/                   # resume-pt.pdf, resume-en.pdf, profile.jpg
+├── src/
+│   ├── app/
+│   │   ├── [locale]/         # layout.tsx, page.tsx (rotas com i18n)
+│   │   └── api/github/       # proxy autenticado para GitHub REST API (cache 1h)
+│   ├── components/           # Header, Footer, seções da página, ui/ (shadcn)
+│   ├── config/site.ts        # dados de contato reais (github, linkedin, e-mail, telefone)
+│   ├── hooks/                # use-typewriter
+│   ├── i18n/                 # routing, navigation, request (next-intl)
+│   └── middleware.ts
+└── CLAUDE.md                 # Este arquivo
 ```
 
 ## Funcionalidades Principais
