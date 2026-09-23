@@ -1,15 +1,17 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { User } from "lucide-react";
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 
+import { SectionHeading } from "@/components/section-heading";
 import { SITE_CONFIG } from "@/config/site";
 
 export function AboutSection() {
   const t = useTranslations("About");
+  const tNav = useTranslations("Nav");
 
   return (
     <section
@@ -22,14 +24,24 @@ export function AboutSection() {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.4 }}
-          className="mx-auto flex size-40 items-center justify-center rounded-full bg-secondary text-secondary-foreground md:mx-0"
+          className="relative mx-auto size-40 overflow-hidden rounded-full ring-2 ring-primary/40 ring-offset-4 ring-offset-background md:mx-0"
         >
-          <User className="size-16" aria-hidden="true" />
+          <Image
+            src="/profile.jpg"
+            alt={SITE_CONFIG.name}
+            fill
+            sizes="160px"
+            className="object-cover"
+            priority
+          />
         </motion.div>
 
         <div>
-          <h2 className="text-3xl font-bold tracking-tight">{t("title")}</h2>
-          <p className="mt-2 text-muted-foreground">{t("subtitle")}</p>
+          <SectionHeading
+            eyebrow={`01 — ${tNav("about")}`}
+            title={t("title")}
+            subtitle={t("subtitle")}
+          />
           <p className="mt-6 max-w-2xl leading-relaxed text-foreground/90">
             {t("bio")}
           </p>
@@ -40,7 +52,7 @@ export function AboutSection() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label={t("socialLinks.github")}
-              className="text-muted-foreground transition-colors hover:text-foreground"
+              className="text-muted-foreground transition-colors hover:text-primary"
             >
               <FaGithub className="size-5" />
             </a>
@@ -49,14 +61,14 @@ export function AboutSection() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label={t("socialLinks.linkedin")}
-              className="text-muted-foreground transition-colors hover:text-foreground"
+              className="text-muted-foreground transition-colors hover:text-primary"
             >
               <FaLinkedin className="size-5" />
             </a>
             <a
               href={`mailto:${SITE_CONFIG.email}`}
               aria-label={t("socialLinks.email")}
-              className="text-muted-foreground transition-colors hover:text-foreground"
+              className="text-muted-foreground transition-colors hover:text-primary"
             >
               <HiOutlineMail className="size-5" />
             </a>

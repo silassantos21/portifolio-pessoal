@@ -21,7 +21,7 @@ export function ProjectCard({
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.4, delay: index * 0.05 }}
-      className="group flex flex-col justify-between rounded-lg border border-border/60 bg-card p-6 shadow-sm transition-colors hover:border-primary/40"
+      className="card-glow group flex flex-col justify-between rounded-lg border border-border/60 bg-card p-6 shadow-sm"
     >
       <div>
         <div className="flex items-center justify-between gap-2">
@@ -55,7 +55,7 @@ export function ProjectCard({
           href={project.url}
           target="_blank"
           rel="noopener noreferrer"
-          className="font-medium underline-offset-4 hover:underline"
+          className="font-medium underline-offset-4 transition-colors hover:text-primary hover:underline"
         >
           {t("viewCode")}
         </a>
@@ -64,7 +64,7 @@ export function ProjectCard({
             href={project.demoUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="font-medium underline-offset-4 hover:underline"
+            className="font-medium underline-offset-4 transition-colors hover:text-primary hover:underline"
           >
             {t("viewDemo")}
           </a>

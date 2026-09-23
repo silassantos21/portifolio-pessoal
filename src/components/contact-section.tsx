@@ -2,6 +2,7 @@ import { Mail, Phone } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
+import { SectionHeading } from "@/components/section-heading";
 import { SITE_CONFIG } from "@/config/site";
 
 const CONTACT_LINKS = [
@@ -29,14 +30,18 @@ const CONTACT_LINKS = [
 
 export function ContactSection() {
   const t = useTranslations("Contact");
+  const tNav = useTranslations("Nav");
 
   return (
     <section
       id="contact"
       className="container scroll-mt-24 border-t border-border/40 py-24"
     >
-      <h2 className="text-3xl font-bold tracking-tight">{t("title")}</h2>
-      <p className="mt-2 max-w-2xl text-muted-foreground">{t("subtitle")}</p>
+      <SectionHeading
+        eyebrow={`06 — ${tNav("contact")}`}
+        title={t("title")}
+        subtitle={t("subtitle")}
+      />
 
       <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:flex-wrap">
         {CONTACT_LINKS.map(({ href, label, icon: Icon }) => (
@@ -45,9 +50,9 @@ export function ContactSection() {
             href={href}
             target={href.startsWith("http") ? "_blank" : undefined}
             rel={href.startsWith("http") ? "noopener noreferrer" : undefined}
-            className="flex items-center gap-2 rounded-lg border border-border/60 bg-card px-4 py-3 text-sm transition-colors hover:border-primary/40"
+            className="card-glow flex items-center gap-2 rounded-lg border border-border/60 bg-card px-4 py-3 text-sm"
           >
-            <Icon className="size-4 text-muted-foreground" aria-hidden="true" />
+            <Icon className="size-4 text-primary" aria-hidden="true" />
             {label}
           </a>
         ))}

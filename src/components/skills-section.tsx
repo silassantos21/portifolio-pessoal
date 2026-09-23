@@ -30,6 +30,8 @@ import {
   SiVuedotjs,
 } from "react-icons/si";
 
+import { SectionHeading } from "@/components/section-heading";
+
 const SKILLS = [
   { name: "Vue.js", icon: SiVuedotjs },
   { name: "Angular", icon: SiAngular },
@@ -61,14 +63,18 @@ const SKILLS = [
 
 export function SkillsSection() {
   const t = useTranslations("Skills");
+  const tNav = useTranslations("Nav");
 
   return (
     <section
       id="skills"
       className="container scroll-mt-24 border-t border-border/40 py-24"
     >
-      <h2 className="text-3xl font-bold tracking-tight">{t("title")}</h2>
-      <p className="mt-2 max-w-2xl text-muted-foreground">{t("subtitle")}</p>
+      <SectionHeading
+        eyebrow={`03 — ${tNav("skills")}`}
+        title={t("title")}
+        subtitle={t("subtitle")}
+      />
 
       <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-5">
         {SKILLS.map(({ name, icon: Icon }, index) => (
@@ -78,7 +84,7 @@ export function SkillsSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.3, delay: index * 0.03 }}
-            className="flex flex-col items-center gap-2 rounded-lg border border-border/60 bg-card p-4 text-center transition-colors hover:border-primary/40"
+            className="card-glow flex flex-col items-center gap-2 rounded-lg border border-border/60 bg-card p-4 text-center"
           >
             <Icon className="size-8" aria-hidden="true" />
             <span className="text-xs text-muted-foreground">{name}</span>

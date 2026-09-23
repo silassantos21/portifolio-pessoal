@@ -26,7 +26,10 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-border/40 bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between">
-        <Link href="/" className="font-semibold tracking-tight">
+        <Link
+          href="/"
+          className="font-semibold tracking-tight transition-colors hover:text-primary"
+        >
           {tHero("name")}
         </Link>
 
@@ -35,7 +38,7 @@ export function Header() {
             <a
               key={item}
               href={`#${item}`}
-              className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+              className="text-sm text-muted-foreground transition-colors hover:text-primary"
             >
               {t(item)}
             </a>
@@ -66,7 +69,7 @@ export function Header() {
               key={item}
               href={`#${item}`}
               onClick={() => setOpen(false)}
-              className="py-2 text-sm text-muted-foreground hover:text-foreground"
+              className="py-2 text-sm text-muted-foreground hover:text-primary"
             >
               {t(item)}
             </a>

@@ -4,10 +4,12 @@ import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
 
 import { ProjectCard } from "@/components/project-card";
+import { SectionHeading } from "@/components/section-heading";
 import type { Project } from "@/types/project";
 
 export function ProjectsSection() {
   const t = useTranslations("Projects");
+  const tNav = useTranslations("Nav");
   const [projects, setProjects] = useState<Project[] | null>(null);
   const [error, setError] = useState(false);
 
@@ -36,8 +38,11 @@ export function ProjectsSection() {
       id="projects"
       className="container scroll-mt-24 border-t border-border/40 py-24"
     >
-      <h2 className="text-3xl font-bold tracking-tight">{t("title")}</h2>
-      <p className="mt-2 max-w-2xl text-muted-foreground">{t("subtitle")}</p>
+      <SectionHeading
+        eyebrow={`02 — ${tNav("projects")}`}
+        title={t("title")}
+        subtitle={t("subtitle")}
+      />
 
       {error && <p className="mt-8 text-sm text-destructive">{t("error")}</p>}
 
