@@ -125,7 +125,10 @@
       "submit": "Enviar mensagem",
       "sending": "Enviando...",
       "success": "Mensagem enviada com sucesso! Retornarei em breve.",
-      "error": "Ocorreu um erro ao enviar a mensagem. Tente novamente."
+      "error": "Ocorreu um erro ao enviar a mensagem. Tente novamente.",
+      "nameMin": "Digite pelo menos 2 caracteres.",
+      "emailInvalid": "Digite um e-mail válido.",
+      "messageMin": "Escreva pelo menos 10 caracteres."
     }
   },
   "Footer": {

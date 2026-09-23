@@ -125,7 +125,10 @@
       "submit": "Send message",
       "sending": "Sending...",
       "success": "Message sent successfully! I'll get back to you soon.",
-      "error": "Something went wrong while sending the message. Please try again."
+      "error": "Something went wrong while sending the message. Please try again.",
+      "nameMin": "Enter at least 2 characters.",
+      "emailInvalid": "Enter a valid email address.",
+      "messageMin": "Write at least 10 characters."
     }
   },
   "Footer": {

@@ -2,6 +2,7 @@ import { Mail, Phone } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
+import { ContactForm } from "@/components/contact-form";
 import { SectionHeading } from "@/components/section-heading";
 import { SITE_CONFIG } from "@/config/site";
 
@@ -57,6 +58,8 @@ export function ContactSection() {
           </a>
         ))}
       </div>
+
+      <ContactForm />
     </section>
   );
 }
