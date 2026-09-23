@@ -16,7 +16,7 @@ Portfólio pessoal moderno e responsivo com suporte a dois idiomas (Português e
 - ✅ **Fase 2** — Header/Footer, LanguageSwitcher (PT/EN), dark/light mode (`next-themes`), smooth scroll, SEO (hreflang)
 - ✅ **Fase 3** — Todas as seções de conteúdo com dados reais do currículo, API Route `/api/github` integrada (testada contra `silassantos21`)
 - ✅ **Fase 4** — Polimento visual, formulário de contato (React Hook Form + Zod + honeypot, `/api/contact` pronto) e responsividade (320–1280px, testado via Playwright) concluídos. **Envio real de e-mail via Resend pendente** (falta a API key — rodando 100% local por enquanto, sem repositório GitHub remoto nem deploy Vercel)
-- ⏳ **Fase 5** — Não iniciada (Lighthouse, deploy, domínio, Vercel Analytics)
+- 🔄 **Fase 5** — Em andamento: auditoria Lighthouse (Performance, Acessibilidade, SEO, Best Practices). Deploy/domínio/Vercel Analytics ficam para depois (rodando local por enquanto)
 
 **Decisões do cliente a lembrar:**
 
@@ -44,11 +44,14 @@ portfolio-pessoal-bilingue/
 ├── src/
 │   ├── app/
 │   │   ├── [locale]/         # layout.tsx, page.tsx (rotas com i18n)
-│   │   └── api/github/       # proxy autenticado para GitHub REST API (cache 1h)
+│   │   └── api/
+│   │       ├── github/       # proxy autenticado para GitHub REST API (cache 1h)
+│   │       └── contact/      # valida + envia via Resend (honeypot anti-spam)
 │   ├── components/           # Header, Footer, seções da página, ui/ (shadcn)
 │   ├── config/site.ts        # dados de contato reais (github, linkedin, e-mail, telefone)
 │   ├── hooks/                # use-typewriter
 │   ├── i18n/                 # routing, navigation, request (next-intl)
+│   ├── lib/                  # utils.ts (cn), contact-schema.ts (Zod)
 │   └── middleware.ts
 └── CLAUDE.md                 # Este arquivo
 ```
@@ -56,11 +59,15 @@ portfolio-pessoal-bilingue/
 ## Funcionalidades Principais
 
 - Troca de idioma PT/EN via bandeiras clicáveis (Brasil e Estados Unidos) com persistência da preferência no localStorage
-- Seção Hero com animação de texto e chamada para ação (contato e download de currículo)
-- Seção Sobre Mim com foto, bio curta e links para redes sociais
+- Dark/light mode (`next-themes`), com acento indigo consistente nos dois temas
+- Seção Hero com efeito de digitação (typewriter) e chamadas para ação (contato, projetos, download de currículo)
+- Seção Sobre Mim com foto real, bio e links para redes sociais
 - Seção de Projetos com cards dinâmicos integrados à API pública do GitHub para exibir repositórios reais
 - Seção de Habilidades com ícones de tecnologias organizados visualmente (skills grid)
-- Seção de Experiência Profissional em timeline vertical
+- Seção de Experiência Profissional em timeline vertical numerada
+- Seção de Educação
+- Formulário de contato com validação PT/EN (React Hook Form + Zod) e honeypot anti-spam
+- Download de currículo em PDF (PT e EN)
 
 ## Agentes de IA Disponíveis
 
