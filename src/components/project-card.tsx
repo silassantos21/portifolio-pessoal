@@ -50,12 +50,12 @@ export function ProjectCard({
         )}
       </div>
 
-      <div className="mt-6 flex items-center gap-4 text-sm">
+      <div className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
         <a
           href={project.url}
           target="_blank"
           rel="noopener noreferrer"
-          className="font-medium underline-offset-4 transition-colors hover:text-primary hover:underline"
+          className="whitespace-nowrap font-medium underline-offset-4 transition-colors hover:text-primary hover:underline"
         >
           {t("viewCode")}
         </a>
@@ -64,13 +64,13 @@ export function ProjectCard({
             href={project.demoUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="font-medium underline-offset-4 transition-colors hover:text-primary hover:underline"
+            className="whitespace-nowrap font-medium underline-offset-4 transition-colors hover:text-primary hover:underline"
           >
             {t("viewDemo")}
           </a>
         )}
         {project.language && (
-          <span className="ml-auto text-xs text-muted-foreground">
+          <span className="ml-auto whitespace-nowrap text-xs text-muted-foreground">
             {project.language}
           </span>
         )}

@@ -33,7 +33,7 @@ export function Header() {
           {tHero("name")}
         </Link>
 
-        <nav className="hidden items-center gap-6 md:flex">
+        <nav className="hidden items-center gap-6 lg:flex">
           {NAV_ITEMS.map((item) => (
             <a
               key={item}
@@ -45,7 +45,7 @@ export function Header() {
           ))}
         </nav>
 
-        <div className="hidden items-center gap-2 md:flex">
+        <div className="hidden items-center gap-2 lg:flex">
           <LanguageSwitcher />
           <ThemeToggle />
         </div>
@@ -53,7 +53,7 @@ export function Header() {
         <Button
           variant="ghost"
           size="icon"
-          className="md:hidden"
+          className="lg:hidden"
           onClick={() => setOpen((value) => !value)}
           aria-label="Menu"
           aria-expanded={open}
@@ -63,7 +63,7 @@ export function Header() {
       </div>
 
       {open && (
-        <nav className="flex flex-col gap-1 border-t border-border/40 px-4 pb-4 md:hidden">
+        <nav className="flex flex-col gap-1 border-t border-border/40 px-4 pb-4 lg:hidden">
           {NAV_ITEMS.map((item) => (
             <a
               key={item}
