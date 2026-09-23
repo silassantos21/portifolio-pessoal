@@ -2,6 +2,8 @@
 
 Portfólio pessoal moderno e responsivo com suporte a dois idiomas (Português e Inglês), apresentando projetos, habilidades, experiências e currículo do desenvolvedor. Construído com Next.js 14 (App Router), i18n via next-intl, Tailwind CSS + shadcn/ui e animações com Framer Motion.
 
+Repositório: [github.com/silassantos21/portifolio-pessoal](https://github.com/silassantos21/portifolio-pessoal)
+
 ## Pré-requisitos
 
 - Node.js 20+

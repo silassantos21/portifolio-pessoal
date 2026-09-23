@@ -46,7 +46,7 @@ Recrutadores técnicos nacionais e internacionais, empresas de tecnologia em bus
 - [x] Seção de Habilidades com grid de tecnologias
 - [x] Seção de Experiência Profissional em timeline
 - [x] Troca de idioma PT/EN funcional com next-intl
-- [ ] Formulário de contato com envio real de e-mail via Resend (UI/validação/honeypot prontos; envio real adiado pelo cliente — falta só a API key do Resend)
+- [x] Formulário de contato com envio real de e-mail via Resend
 - [x] Download de currículo PDF em PT e EN
 - [ ] Deploy na Vercel com domínio configurado (adiado — projeto rodando 100% local por enquanto)
 - [x] Design responsivo mobile + desktop

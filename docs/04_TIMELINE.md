@@ -15,7 +15,7 @@
 
 ## Detalhamento das Fases
 
-### Fase 1: Fase 1: Setup e Configuração do Projeto (3 dias) — ✅ Concluída (exceto repo/deploy)
+### Fase 1: Fase 1: Setup e Configuração do Projeto (3 dias) — ✅ Concluída (exceto deploy Vercel)
 
 #### Tarefas
 
@@ -24,7 +24,7 @@
 - [x] Instalar e configurar next-intl com estrutura de pastas PT/EN
 - [x] Criar arquivos de tradução iniciais (pt.json, en.json) com estrutura completa
 - [x] Configurar ESLint, Prettier e Husky para qualidade de código
-- [ ] Criar repositório GitHub e configurar deploy automático na Vercel (adiado — projeto local por enquanto)
+- [x] Criar repositório GitHub ([silassantos21/portifolio-pessoal](https://github.com/silassantos21/portifolio-pessoal)) — deploy automático na Vercel ainda pendente
 - [x] Usar o agente CurriculumParser para processar o currículo do cliente e popular os JSONs de i18n
 
 #### Entregáveis
@@ -87,7 +87,7 @@
 - [x] Adicionar hover effects nos cards de projetos e skill badges
 - [x] Implementar transição suave na troca de idioma
 - [x] Desenvolver seção/modal de formulário de contato com validação (React Hook Form + Zod)
-- [ ] Configurar Resend para envio de e-mails via API Route /api/contact (rota pronta, só falta a API key — adiado pelo cliente)
+- [x] Configurar Resend para envio de e-mails via API Route /api/contact (testado ponta a ponta: envio legítimo e honeypot)
 - [x] Adicionar botão de download do currículo PDF (PT e EN)
 - [x] Ajustes de responsividade mobile, tablet e desktop (testado em 320/375/768/1024/1280px via Playwright; corrigido bug de colisão no Header em tablet e wrap dos links do ProjectCard)
 - [x] Otimização de imagens com next/image
@@ -109,7 +109,7 @@
 - [x] Auditoria Lighthouse para Performance, Acessibilidade, SEO e Best Practices (meta: 90+ em todos)
 - [x] Otimização de Core Web Vitals (LCP, CLS, FID) — dentro do orçado pelo Lighthouse (ver resultados abaixo)
 - [ ] Configurar domínio customizado na Vercel (adiado — sem deploy ainda)
-- [ ] Testar formulário de contato em produção (adiado — Resend pendente)
+- [ ] Testar formulário de contato em produção (Resend configurado e testado localmente; falta testar após deploy)
 - [ ] Testar troca de idioma e persistência em produção (adiado — sem deploy ainda)
 - [ ] Revisão final de conteúdo PT e EN com o cliente
 - [ ] Configurar Vercel Analytics (adiado — sem deploy ainda)

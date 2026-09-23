@@ -15,13 +15,14 @@ Portfólio pessoal moderno e responsivo com suporte a dois idiomas (Português e
 - ✅ **Fase 1** — Setup Next.js 14 + TypeScript, Tailwind, shadcn/ui (estilo `new-york`, base Radix), next-intl, ESLint/Prettier/Husky
 - ✅ **Fase 2** — Header/Footer, LanguageSwitcher (PT/EN), dark/light mode (`next-themes`), smooth scroll, SEO (hreflang)
 - ✅ **Fase 3** — Todas as seções de conteúdo com dados reais do currículo, API Route `/api/github` integrada (testada contra `silassantos21`)
-- ✅ **Fase 4** — Polimento visual, formulário de contato (React Hook Form + Zod + honeypot, `/api/contact` pronto) e responsividade (320–1280px, testado via Playwright) concluídos. **Envio real de e-mail via Resend pendente** (falta a API key — rodando 100% local por enquanto, sem repositório GitHub remoto nem deploy Vercel)
-- 🔄 **Fase 5** — Auditoria Lighthouse concluída: `/pt` 94-95/100/100/100, `/en` 94/100/100/100 (meta 90+ atingida). Corrigido bug real de SEO (hreflang com URLs relativas — agora usa `metadataBase`/`NEXT_PUBLIC_SITE_URL`). Deploy/domínio/Vercel Analytics/revisão final de conteúdo ficam para depois (rodando local por enquanto)
+- ✅ **Fase 4** — Polimento visual, formulário de contato (React Hook Form + Zod + honeypot, `/api/contact` pronto) e responsividade (320–1280px, testado via Playwright) concluídos. **Envio real de e-mail via Resend funcionando** (testado ponta a ponta — envio legítimo e honeypot)
+- 🔄 **Fase 5** — Auditoria Lighthouse concluída: `/pt` 94-95/100/100/100, `/en` 94/100/100/100 (meta 90+ atingida). Corrigido bug real de SEO (hreflang com URLs relativas — agora usa `metadataBase`/`NEXT_PUBLIC_SITE_URL`). Deploy/domínio/Vercel Analytics/revisão final de conteúdo ficam para depois
 
-**Decisões do cliente a lembrar:**
+**Integrações configuradas:**
 
-- Configuração do Resend (envio de e-mail do formulário de contato) fica para depois — construir a UI/validação agora, deixar o envio real como próximo passo isolado.
-- Repositório GitHub remoto e deploy na Vercel ficam para depois — trabalhar 100% local por enquanto.
+- **GitHub remoto**: [github.com/silassantos21/portifolio-pessoal](https://github.com/silassantos21/portifolio-pessoal) — branch `main`, histórico completo enviado.
+- **Resend**: `RESEND_API_KEY` configurada em `.env.local` (não versionado). Envio real testado e funcionando — `CONTACT_EMAIL_TO` precisa ser o mesmo e-mail da conta Resend enquanto nenhum domínio for verificado (limitação do plano sem domínio).
+- **Deploy na Vercel**: ainda não configurado — rodando local por enquanto.
 
 ## Stack Tecnológica
 
