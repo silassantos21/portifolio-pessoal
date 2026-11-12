@@ -16,7 +16,7 @@ Portfólio pessoal moderno e responsivo com suporte a dois idiomas (Português e
 - ✅ **Fase 2** — Header/Footer, LanguageSwitcher (PT/EN), dark/light mode (`next-themes`), smooth scroll, SEO (hreflang)
 - ✅ **Fase 3** — Todas as seções de conteúdo com dados reais do currículo, API Route `/api/github` integrada (testada contra `silassantos21`)
 - ✅ **Fase 4** — Polimento visual, formulário de contato (React Hook Form + Zod + honeypot, `/api/contact` pronto) e responsividade (320–1280px, testado via Playwright) concluídos. **Envio real de e-mail via Resend funcionando** (testado ponta a ponta — envio legítimo e honeypot)
-- 🔄 **Fase 5** — Auditoria Lighthouse concluída: `/pt` 94-95/100/100/100, `/en` 94/100/100/100 (meta 90+ atingida). Corrigido bug real de SEO (hreflang com URLs relativas — agora usa `metadataBase`/`NEXT_PUBLIC_SITE_URL`). Deploy/domínio/Vercel Analytics/revisão final de conteúdo ficam para depois
+- 🔄 **Fase 5** — Auditoria Lighthouse concluída: `/pt` 94-95/100/100/100, `/en` 94/100/100/100 (meta 90+ atingida). Corrigido bug real de SEO (hreflang com URLs relativas — agora usa `metadataBase`/`NEXT_PUBLIC_SITE_URL`). Seção de Projetos trocada: saiu o grid dinâmico via API do GitHub, entrou uma exposição curada e estática de 5 cases reais (ProspecMan, Rotineira, Núcleo Estar Bem, Magnus Imóveis, MaPinha), com descrição/destaques reais e galeria de prints. Deploy/domínio/Vercel Analytics/revisão final de conteúdo ficam para depois
 
 **Integrações configuradas:**
 
