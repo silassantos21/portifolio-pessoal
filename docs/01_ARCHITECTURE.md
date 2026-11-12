@@ -1,4 +1,4 @@
-# Arquitetura do Sistema — Portfólio Pessoal Bilíngue com Troca de Idioma PT/EN
+# Arquitetura do Sistema: Portfólio Pessoal Bilíngue com Troca de Idioma PT/EN
 
 ## Visão Geral
 

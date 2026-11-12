@@ -13,7 +13,7 @@ export function Footer() {
     <footer className="border-t border-border/40">
       <div className="container flex flex-col items-center gap-4 py-8 text-sm text-muted-foreground sm:flex-row sm:justify-between">
         <p>
-          © {year} — {t("rights")}
+          © {year}, {t("rights")}
         </p>
         <div className="flex items-center gap-4">
           <a

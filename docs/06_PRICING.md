@@ -1,6 +1,6 @@
-# Estimativa de Investimento e Precificação — Portfólio Pessoal Bilíngue com Troca de Idioma PT/EN
+# Estimativa de Investimento e Precificação: Portfólio Pessoal Bilíngue com Troca de Idioma PT/EN
 
-> ⚠️ **Documento de uso interno** — apoia a decisão de quanto cobrar do cliente. Não confundir com [05_COST_ANALYSIS.md](05_COST_ANALYSIS.md), que trata do custo _operacional_ (infra/APIs) do projeto já pronto.
+> ⚠️ **Documento de uso interno**: apoia a decisão de quanto cobrar do cliente. Não confundir com [05_COST_ANALYSIS.md](05_COST_ANALYSIS.md), que trata do custo _operacional_ (infra/APIs) do projeto já pronto.
 
 ## Resumo
 
@@ -11,7 +11,7 @@
 | Valor/hora aplicado     | R$ 80.00 (USD 14.04)            |
 | **Preço sugerido**      | **R$ 4752.00 – R$ 6072.00**     |
 
-**Justificativa da complexidade:** O projeto é um portfólio pessoal estático com complexidade técnica controlada. Não há banco de dados, autenticação, pagamentos ou lógica de negócio complexa. As únicas integrações externas são GitHub API (pública e bem documentada) e Resend (SDK simples). O i18n com next-intl adiciona uma camada de complexidade moderada, mas é uma solução madura com documentação excelente. Não há agentes de IA em runtime — apenas usados como ferramenta de produtividade no desenvolvimento. O maior risco técnico é a qualidade das animações e fidelidade ao design de referência, que depende de habilidade front-end, não de complexidade arquitetural. Estimativa de 66 horas é adequada para um dev com experiência em Next.js.
+**Justificativa da complexidade:** O projeto é um portfólio pessoal estático com complexidade técnica controlada. Não há banco de dados, autenticação, pagamentos ou lógica de negócio complexa. As únicas integrações externas são GitHub API (pública e bem documentada) e Resend (SDK simples). O i18n com next-intl adiciona uma camada de complexidade moderada, mas é uma solução madura com documentação excelente. Não há agentes de IA em runtime, apenas usados como ferramenta de produtividade no desenvolvimento. O maior risco técnico é a qualidade das animações e fidelidade ao design de referência, que depende de habilidade front-end, não de complexidade arquitetural. Estimativa de 66 horas é adequada para um dev com experiência em Next.js.
 
 ---
 

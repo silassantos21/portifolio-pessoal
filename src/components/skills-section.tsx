@@ -110,7 +110,7 @@ export function SkillsSection() {
     >
       <div className="container">
         <SectionHeading
-          eyebrow={`03 — ${tNav("skills")}`}
+          eyebrow={`03. ${tNav("skills")}`}
           title={t("title")}
           subtitle={t("subtitle")}
         />

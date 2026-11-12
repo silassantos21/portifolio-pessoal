@@ -1,4 +1,4 @@
-# Agentes de IA — Portfólio Pessoal Bilíngue com Troca de Idioma PT/EN
+# Agentes de IA: Portfólio Pessoal Bilíngue com Troca de Idioma PT/EN
 
 Este projeto utiliza **2 agente(s) de IA** especializados para auxiliar no desenvolvimento e operação.
 

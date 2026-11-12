@@ -4,7 +4,7 @@
 
 Portfólio pessoal moderno e responsivo com suporte a dois idiomas (Português e Inglês), apresentando projetos, habilidades, experiências e currículo do desenvolvedor. O site foi gerado a partir do currículo real do cliente e permite troca de idioma via bandeiras interativas. O design segue as referências fornecidas, com animações fluidas e visual impactante.
 
-**Cliente:** Silas Ribeiro dos Santos — desenvolvedor de software full-stack (Vue.js, Angular, Java/Spring Boot, Python/Django). GitHub: [silassantos21](https://github.com/silassantos21).
+**Cliente:** Silas Ribeiro dos Santos, desenvolvedor de software full-stack (Vue.js, Angular, Java/Spring Boot, Python/Django). GitHub: [silassantos21](https://github.com/silassantos21).
 
 **Problema:** O desenvolvedor não possui uma presença digital profissional centralizada que apresente seus projetos do GitHub, habilidades técnicas e experiências de forma atraente e acessível para recrutadores e clientes em diferentes idiomas. Um currículo em PDF não é suficiente para demonstrar a qualidade do trabalho e a identidade visual profissional.
 
@@ -12,17 +12,17 @@ Portfólio pessoal moderno e responsivo com suporte a dois idiomas (Português e
 
 ## Status Atual (ver histórico completo em `git log`)
 
-- ✅ **Fase 1** — Setup Next.js 14 + TypeScript, Tailwind, shadcn/ui (estilo `new-york`, base Radix), next-intl, ESLint/Prettier/Husky
-- ✅ **Fase 2** — Header/Footer, LanguageSwitcher (PT/EN), dark/light mode (`next-themes`), smooth scroll, SEO (hreflang)
-- ✅ **Fase 3** — Todas as seções de conteúdo com dados reais do currículo, API Route `/api/github` integrada (testada contra `silassantos21`)
-- ✅ **Fase 4** — Polimento visual, formulário de contato (React Hook Form + Zod + honeypot, `/api/contact` pronto) e responsividade (320–1280px, testado via Playwright) concluídos. **Envio real de e-mail via Resend funcionando** (testado ponta a ponta — envio legítimo e honeypot)
-- 🔄 **Fase 5** — Auditoria Lighthouse concluída: `/pt` 94-95/100/100/100, `/en` 94/100/100/100 (meta 90+ atingida). Corrigido bug real de SEO (hreflang com URLs relativas — agora usa `metadataBase`/`NEXT_PUBLIC_SITE_URL`). Seção de Projetos trocada: saiu o grid dinâmico via API do GitHub, entrou uma exposição curada e estática de 5 cases reais (ProspecMan, Rotineira, Núcleo Estar Bem, Magnus Imóveis, MaPinha), com descrição/destaques reais e galeria de prints. Deploy/domínio/Vercel Analytics/revisão final de conteúdo ficam para depois
+- ✅ **Fase 1**: Setup Next.js 14 + TypeScript, Tailwind, shadcn/ui (estilo `new-york`, base Radix), next-intl, ESLint/Prettier/Husky
+- ✅ **Fase 2**: Header/Footer, LanguageSwitcher (PT/EN), dark/light mode (`next-themes`), smooth scroll, SEO (hreflang)
+- ✅ **Fase 3**: Todas as seções de conteúdo com dados reais do currículo, API Route `/api/github` integrada (testada contra `silassantos21`)
+- ✅ **Fase 4**: Polimento visual, formulário de contato (React Hook Form + Zod + honeypot, `/api/contact` pronto) e responsividade (320–1280px, testado via Playwright) concluídos. **Envio real de e-mail via Resend funcionando** (testado ponta a ponta, envio legítimo e honeypot)
+- 🔄 **Fase 5**: Auditoria Lighthouse concluída: `/pt` 94-95/100/100/100, `/en` 94/100/100/100 (meta 90+ atingida). Corrigido bug real de SEO (hreflang com URLs relativas, agora usa `metadataBase`/`NEXT_PUBLIC_SITE_URL`). Seção de Projetos trocada: saiu o grid dinâmico via API do GitHub, entrou uma exposição curada e estática de 5 cases reais (ProspecMan, Rotineira, Núcleo Estar Bem, Magnus Imóveis, MaPinha), com descrição/destaques reais e galeria de prints. Deploy/domínio/Vercel Analytics/revisão final de conteúdo ficam para depois
 
 **Integrações configuradas:**
 
-- **GitHub remoto**: [github.com/silassantos21/portifolio-pessoal](https://github.com/silassantos21/portifolio-pessoal) — branch `main`, histórico completo enviado.
-- **Resend**: `RESEND_API_KEY` configurada em `.env.local` (não versionado). Envio real testado e funcionando — `CONTACT_EMAIL_TO` precisa ser o mesmo e-mail da conta Resend enquanto nenhum domínio for verificado (limitação do plano sem domínio).
-- **Deploy na Vercel**: ainda não configurado — rodando local por enquanto.
+- **GitHub remoto**: [github.com/silassantos21/portifolio-pessoal](https://github.com/silassantos21/portifolio-pessoal); branch `main`, histórico completo enviado.
+- **Resend**: `RESEND_API_KEY` configurada em `.env.local` (não versionado). Envio real testado e funcionando; `CONTACT_EMAIL_TO` precisa ser o mesmo e-mail da conta Resend enquanto nenhum domínio for verificado (limitação do plano sem domínio).
+- **Deploy na Vercel**: ainda não configurado, rodando local por enquanto.
 
 ## Stack Tecnológica
 
@@ -72,14 +72,14 @@ portfolio-pessoal-bilingue/
 
 ## Agentes de IA Disponíveis
 
-- **CurriculumParser** — Extrator e estruturador de conteúdo do currículo
-- **ProjectDescriptionWriter** — Redator de descrições de projetos para o portfólio
+- **CurriculumParser**: Extrator e estruturador de conteúdo do currículo
+- **ProjectDescriptionWriter**: Redator de descrições de projetos para o portfólio
 
 Prompts completos em [docs/03_AI_AGENTS.md](docs/03_AI_AGENTS.md).
 
 ## Estimativa
 
-- **Total:** 20 dias (2.9 semanas) — 66.0h de desenvolvimento
+- **Total:** 20 dias (2.9 semanas), 66.0h de desenvolvimento
 - **Custo Mensal:** USD 1.25 / BRL 7.13
 - **Preço Sugerido:** R$ 4752.00 – R$ 6072.00 (ver [docs/06_PRICING.md](docs/06_PRICING.md))
 

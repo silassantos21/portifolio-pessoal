@@ -1,5 +1,5 @@
 export const SITE_CONFIG = {
-  // Sem domínio definitivo ainda — atualize NEXT_PUBLIC_SITE_URL no
+  // Sem domínio definitivo ainda. Atualize NEXT_PUBLIC_SITE_URL no
   // deploy para o domínio real (necessário para hreflang/SEO absoluto).
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
   name: "Silas Ribeiro dos Santos",

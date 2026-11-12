@@ -38,7 +38,7 @@ export async function POST(request: Request) {
     from: "Portfólio <onboarding@resend.dev>",
     to,
     replyTo: email,
-    subject: `Novo contato pelo portfólio — ${name}`,
+    subject: `Novo contato pelo portfólio: ${name}`,
     text: `Nome: ${name}\nE-mail: ${email}\n\nMensagem:\n${message}`,
   });
 

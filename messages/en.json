@@ -39,7 +39,7 @@
       {
         "name": "ProspecMan",
         "tagline": "Turns a client briefing into a full project package with AI",
-        "description": "A tool that takes a client briefing as audio or text and generates a complete project package — architecture, stack, phased schedule, and a suggested price — ready to open in VS Code. Available as a CLI, API, and mobile and web apps.",
+        "description": "A tool that takes a client briefing as audio or text and generates a complete project package: architecture, stack, phased schedule, and a suggested price, ready to open in VS Code. Available as a CLI, API, and mobile and web apps.",
         "highlights": [
           "Audio transcription with Whisper (Groq) and image analysis with Claude Vision",
           "Structured AI-generated plan, validated as JSON with Pydantic",
@@ -83,7 +83,7 @@
       {
         "name": "MaPinha",
         "tagline": "Gamified interactive map for personal points of interest",
-        "description": "An interactive map for marking and sharing personal points of interest — from a favorite bar to a go-to restaurant — with four visual themes and real-time route calculation.",
+        "description": "An interactive map for marking and sharing personal points of interest, from a favorite bar to a go-to restaurant, with four visual themes and real-time route calculation.",
         "highlights": [
           "PWA with offline map caching and clustered search",
           "Public sharing with Open Graph and server-rendered pages",
@@ -158,7 +158,7 @@
       },
       {
         "degree": "Bachelor's Degree in Mathematics",
-        "institution": "Universidade do Estado de Minas Gerais (UEMG) — Ibirité",
+        "institution": "Universidade do Estado de Minas Gerais (UEMG), Ibirité",
         "period": "2017 — 2021",
         "description": "Capstone project: a Scratch application to help teachers introduce basic operations and geometry to 6th-grade students."
       },

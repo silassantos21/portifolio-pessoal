@@ -48,12 +48,12 @@ export function ProjectGallery({
             key={file}
             type="button"
             onClick={() => setOpenIndex(index)}
-            aria-label={`${name} — ver print ${index + 1} em tamanho grande`}
+            aria-label={`${name}: ver print ${index + 1} em tamanho grande`}
             className="relative h-28 w-48 shrink-0 overflow-hidden rounded-md border border-border/60 transition-opacity hover:opacity-90 sm:h-32 sm:w-56"
           >
             <Image
               src={`/projects/${slug}/${file}`}
-              alt={`${name} — print ${index + 1}`}
+              alt={`${name}: print ${index + 1}`}
               fill
               sizes="224px"
               className="object-cover"
@@ -72,7 +72,7 @@ export function ProjectGallery({
             onClick={close}
             role="dialog"
             aria-modal="true"
-            aria-label={`${name} — galeria de prints`}
+            aria-label={`${name}: galeria de prints`}
           >
             <button
               type="button"
@@ -121,7 +121,7 @@ export function ProjectGallery({
             >
               <Image
                 src={`/projects/${slug}/${screenshots[openIndex]}`}
-                alt={`${name} — print ${openIndex + 1}`}
+                alt={`${name}: print ${openIndex + 1}`}
                 fill
                 sizes="(max-width: 896px) 100vw, 896px"
                 className="object-contain"

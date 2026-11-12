@@ -48,7 +48,7 @@ Recrutadores técnicos nacionais e internacionais, empresas de tecnologia em bus
 - [x] Troca de idioma PT/EN funcional com next-intl
 - [x] Formulário de contato com envio real de e-mail via Resend
 - [x] Download de currículo PDF em PT e EN
-- [ ] Deploy na Vercel com domínio configurado (adiado — projeto rodando 100% local por enquanto)
+- [ ] Deploy na Vercel com domínio configurado (adiado, projeto rodando 100% local por enquanto)
 - [x] Design responsivo mobile + desktop
 
 ## Funcionalidades Futuras (v2+)
@@ -66,7 +66,7 @@ Recrutadores técnicos nacionais e internacionais, empresas de tecnologia em bus
 
 - Risco de fidelidade visual: As referências (Badr Jibali e Raul Gonçalves) têm designs muito polidos que exigem atenção a microdetalhes de CSS e animações. Mitigação: dedicar tempo adequado na Fase 4, usar shadcn/ui como base sólida e validar o design com o cliente após cada seção antes de avançar.
 - Risco de conteúdo incompleto: Se o cliente demorar para fornecer currículo, foto e lista de projetos, o prazo de 20 dias pode ser comprometido. Mitigação: definir prazo máximo de 48h para entrega de materiais no contrato e usar conteúdo placeholder durante o desenvolvimento.
-- Risco de rate limiting na GitHub API: Sem token de autenticação, o limite é 60 requests/hora — facilmente atingido por crawlers. Mitigação: sempre usar token GitHub com escopo público readonly e implementar cache ISR de 1 hora nas API Routes.
+- Risco de rate limiting na GitHub API: Sem token de autenticação, o limite é 60 requests/hora, facilmente atingido por crawlers. Mitigação: sempre usar token GitHub com escopo público readonly e implementar cache ISR de 1 hora nas API Routes.
 - Risco de spam no formulário de contato: Formulários públicos são frequentemente alvo de bots. Mitigação: implementar Cloudflare Turnstile (gratuito) ou honeypot field simples para bloquear submissões automatizadas.
 - Risco de conteúdo desatualizado: Sem painel de admin, o cliente dependerá do desenvolvedor para atualizações futuras. Mitigação: entregar documentação clara de como editar os arquivos JSON de tradução via GitHub diretamente, e oferecer integração com Contentlayer como feature v2.
 

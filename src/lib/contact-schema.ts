@@ -5,7 +5,7 @@ export const contactSchema = z.object({
   email: z.email().max(200),
   message: z.string().trim().min(10).max(2000),
   // Campo honeypot: pessoas deixam vazio; bots costumam preencher.
-  // Não deve ter validação que rejeite o preenchimento — quem decide o
+  // Não deve ter validação que rejeite o preenchimento; quem decide o
   // que fazer com um valor não vazio é o handler (resposta de sucesso
   // falsa, sem denunciar o filtro), não o schema.
   company: z.string().max(200).optional().or(z.literal("")),

@@ -1,4 +1,4 @@
-# Stack Tecnológica — Portfólio Pessoal Bilíngue com Troca de Idioma PT/EN
+# Stack Tecnológica: Portfólio Pessoal Bilíngue com Troca de Idioma PT/EN
 
 | Camada         | Tecnologia Principal                       | Complementos                                                               |
 | -------------- | ------------------------------------------ | -------------------------------------------------------------------------- |
@@ -24,7 +24,7 @@
 - `next-intl (i18n)`
 - `React Icons / Devicons`
 
-**Justificativa:** Next.js 14 com App Router oferece SSG (Static Site Generation) perfeito para portfólios — build estático, SEO excelente, deploy na Vercel gratuito. TypeScript garante manutenibilidade. next-intl é a solução mais madura para i18n em Next.js, permitindo troca PT/EN sem reload. Framer Motion entrega as animações de alto nível vistas nas referências.
+**Justificativa:** Next.js 14 com App Router oferece SSG (Static Site Generation) perfeito para portfólios: build estático, SEO excelente, deploy na Vercel gratuito. TypeScript garante manutenibilidade. next-intl é a solução mais madura para i18n em Next.js, permitindo troca PT/EN sem reload. Framer Motion entrega as animações de alto nível vistas nas referências.
 
 ## Backend
 
@@ -75,7 +75,7 @@ _Nenhum_
 - `GitHub Actions (CI/CD automático)`
 - `GitHub Pages como fallback opcional`
 
-**Justificativa:** Vercel é a plataforma ideal para Next.js — deploy automático a cada push, SSL gratuito, CDN global, plano Hobby suficiente para portfólio pessoal sem custo. GitHub Actions automatiza o pipeline de build e testes.
+**Justificativa:** Vercel é a plataforma ideal para Next.js: deploy automático a cada push, SSL gratuito, CDN global, plano Hobby suficiente para portfólio pessoal sem custo. GitHub Actions automatiza o pipeline de build e testes.
 
 ## Monitoramento & Observabilidade
 

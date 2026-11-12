@@ -24,7 +24,7 @@ export function ProjectsSection() {
       className="container scroll-mt-24 border-t border-border/40 py-24"
     >
       <SectionHeading
-        eyebrow={`02 — ${tNav("projects")}`}
+        eyebrow={`02. ${tNav("projects")}`}
         title={t("title")}
         subtitle={t("subtitle")}
       />

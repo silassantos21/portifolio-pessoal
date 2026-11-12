@@ -39,7 +39,7 @@ export function ContactSection() {
       className="container scroll-mt-24 border-t border-border/40 py-24"
     >
       <SectionHeading
-        eyebrow={`06 — ${tNav("contact")}`}
+        eyebrow={`06. ${tNav("contact")}`}
         title={t("title")}
         subtitle={t("subtitle")}
       />

@@ -39,7 +39,7 @@
       {
         "name": "ProspecMan",
         "tagline": "Transforma um briefing em pacote de projeto completo com IA",
-        "description": "Ferramenta que recebe um briefing de cliente em áudio ou texto e gera um pacote completo de projeto — arquitetura, stack, cronograma faseado e preço sugerido — pronto para abrir no VS Code. Disponível como CLI, API e apps mobile e web.",
+        "description": "Ferramenta que recebe um briefing de cliente em áudio ou texto e gera um pacote completo de projeto: arquitetura, stack, cronograma faseado e preço sugerido, pronto para abrir no VS Code. Disponível como CLI, API e apps mobile e web.",
         "highlights": [
           "Transcrição de áudio com Whisper (Groq) e análise de imagens com Claude Vision",
           "Planejamento estruturado gerado por IA e validado como JSON com Pydantic",
@@ -83,7 +83,7 @@
       {
         "name": "MaPinha",
         "tagline": "Mapa interativo gamificado para marcar pontos de interesse",
-        "description": "Mapa interativo para marcar e compartilhar pontos de interesse pessoais — do bar favorito ao restaurante preferido — com quatro temas visuais e rotas calculadas em tempo real.",
+        "description": "Mapa interativo para marcar e compartilhar pontos de interesse pessoais, do bar favorito ao restaurante preferido, com quatro temas visuais e rotas calculadas em tempo real.",
         "highlights": [
           "PWA com cache de mapas offline e busca com clusterização",
           "Compartilhamento público com Open Graph e páginas renderizadas no servidor",
@@ -158,7 +158,7 @@
       },
       {
         "degree": "Graduação em Matemática",
-        "institution": "Universidade do Estado de Minas Gerais (UEMG) — Ibirité",
+        "institution": "Universidade do Estado de Minas Gerais (UEMG), Ibirité",
         "period": "2017 — 2021",
         "description": "Trabalho de conclusão de curso: desenvolvimento de um aplicativo na plataforma Scratch para auxiliar professores no ensino de operações básicas e introdução à geometria em turmas do 6º ano."
       },

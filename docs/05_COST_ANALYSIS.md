@@ -1,4 +1,4 @@
-# Análise de Custo-Benefício — Portfólio Pessoal Bilíngue com Troca de Idioma PT/EN
+# Análise de Custo-Benefício: Portfólio Pessoal Bilíngue com Troca de Idioma PT/EN
 
 ## Resumo Financeiro
 
@@ -15,10 +15,10 @@
 
 ## Infraestrutura & Hosting
 
-| Serviço/Item                              | Mensal (USD) | Setup (USD) | Free Tier | Observações                                                                                                                                                                               |
-| ----------------------------------------- | ------------ | ----------- | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Vercel Hobby Plan (frontend + API Routes) | $0.00        | $0.00       | ✅ Sim    | Plano Hobby gratuito é suficiente para portfólio pessoal: 100GB bandwidth/mês, deploys ilimitados, SSL, CDN global. Upgrade para Pro ($20/mês) apenas se necessário.                      |
-| Domínio customizado (ex: .dev ou .com)    | $1.25        | $15.00      | ❌ Não    | Custo anual médio de ~$15/ano para domínio .dev ou .com no Namecheap ou Google Domains. Calculado como $1.25/mês. O cliente indicou que já pode ter domínio — verificar antes de comprar. |
+| Serviço/Item                              | Mensal (USD) | Setup (USD) | Free Tier | Observações                                                                                                                                                                              |
+| ----------------------------------------- | ------------ | ----------- | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Vercel Hobby Plan (frontend + API Routes) | $0.00        | $0.00       | ✅ Sim    | Plano Hobby gratuito é suficiente para portfólio pessoal: 100GB bandwidth/mês, deploys ilimitados, SSL, CDN global. Upgrade para Pro ($20/mês) apenas se necessário.                     |
+| Domínio customizado (ex: .dev ou .com)    | $1.25        | $15.00      | ❌ Não    | Custo anual médio de ~$15/ano para domínio .dev ou .com no Namecheap ou Google Domains. Calculado como $1.25/mês. O cliente indicou que já pode ter domínio. Verificar antes de comprar. |
 
 ## APIs & Serviços Externos
 

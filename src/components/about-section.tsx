@@ -38,7 +38,7 @@ export function AboutSection() {
 
         <div>
           <SectionHeading
-            eyebrow={`01 — ${tNav("about")}`}
+            eyebrow={`01. ${tNav("about")}`}
             title={t("title")}
             subtitle={t("subtitle")}
           />

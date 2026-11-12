@@ -23,7 +23,7 @@ export function ExperienceSection() {
       className="container scroll-mt-24 border-t border-border/40 py-24"
     >
       <SectionHeading
-        eyebrow={`04 — ${tNav("experience")}`}
+        eyebrow={`04. ${tNav("experience")}`}
         title={t("title")}
         subtitle={t("subtitle")}
       />

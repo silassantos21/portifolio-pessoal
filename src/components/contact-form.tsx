@@ -61,7 +61,7 @@ export function ContactForm() {
       noValidate
       className="mt-8 max-w-xl space-y-5"
     >
-      {/* Honeypot — invisível para pessoas, atrativo para bots */}
+      {/* Honeypot: invisível para pessoas, atrativo para bots */}
       <div className="hidden" aria-hidden="true">
         <label htmlFor="company">Company</label>
         <input
