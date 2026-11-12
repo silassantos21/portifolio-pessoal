@@ -46,10 +46,10 @@ portfolio-pessoal-bilingue/
 │   ├── app/
 │   │   ├── [locale]/         # layout.tsx, page.tsx (rotas com i18n)
 │   │   └── api/
-│   │       ├── github/       # proxy autenticado para GitHub REST API (cache 1h)
 │   │       └── contact/      # valida + envia via Resend (honeypot anti-spam)
 │   ├── components/           # Header, Footer, seções da página, ui/ (shadcn)
 │   ├── config/site.ts        # dados de contato reais (github, linkedin, e-mail, telefone)
+│   ├── data/projects.ts      # 5 projetos reais em destaque (repo, demo, stack, prints)
 │   ├── hooks/                # use-typewriter
 │   ├── i18n/                 # routing, navigation, request (next-intl)
 │   ├── lib/                  # utils.ts (cn), contact-schema.ts (Zod)
@@ -63,7 +63,7 @@ portfolio-pessoal-bilingue/
 - Dark/light mode (`next-themes`), com acento indigo consistente nos dois temas
 - Seção Hero com efeito de digitação (typewriter) e chamadas para ação (contato, projetos, download de currículo)
 - Seção Sobre Mim com foto real, bio e links para redes sociais
-- Seção de Projetos com cards dinâmicos integrados à API pública do GitHub para exibir repositórios reais
+- Seção de Projetos com 5 cases reais em destaque (ProspecMan, Rotineira, Núcleo Estar Bem, Magnus Imóveis, MaPinha), com descrição, stack, destaques e galeria de prints (carrossel + lightbox)
 - Seção de Habilidades com ícones de tecnologias organizados visualmente (skills grid)
 - Seção de Experiência Profissional em timeline vertical numerada
 - Seção de Educação
@@ -85,4 +85,4 @@ Prompts completos em [docs/03_AI_AGENTS.md](docs/03_AI_AGENTS.md).
 
 ## Arquitetura
 
-O portfólio é uma aplicação Next.js 14 100% estática (SSG) hospedada na Vercel. O conteúdo textual em PT e EN é armazenado em arquivos JSON de tradução gerenciados pelo next-intl, permitindo troca de idioma no client-side sem navegação. Os projetos do GitHub são buscados via API Routes do Next.js que fazem proxy autenticado para a GitHub REST API, com cache de 1 hora para evitar rate limiting. O formulário de contato chama uma API Route que usa o Resend para enviar e-mails. Toda a lógica de UI (animações, troca de idioma, tema dark/light) reside no frontend com Framer Motion e Tailwind CSS. O CI/CD é feito automaticamente pelo Vercel ao detectar pushes na branch main do GitHub.
+O portfólio é uma aplicação Next.js 14 100% estática (SSG) hospedada na Vercel. O conteúdo textual em PT e EN é armazenado em arquivos JSON de tradução gerenciados pelo next-intl, permitindo troca de idioma no client-side sem navegação. A seção de Projetos exibe uma lista curada e fixa de 5 cases reais (`src/data/projects.ts`, com nome/descrição/destaques vindos das traduções e prints reais em `public/projects/`), sem dependência de API externa. O formulário de contato chama uma API Route que usa o Resend para enviar e-mails. Toda a lógica de UI (animações, troca de idioma, tema dark/light) reside no frontend com Framer Motion e Tailwind CSS. O CI/CD é feito automaticamente pelo Vercel ao detectar pushes na branch main do GitHub.

@@ -32,11 +32,66 @@
   },
   "Projects": {
     "title": "Projetos",
-    "subtitle": "Uma seleção de repositórios reais, buscados diretamente do GitHub.",
+    "subtitle": "Uma seleção de sistemas reais que desenvolvi do zero, do briefing à produção.",
     "viewCode": "Ver código",
     "viewDemo": "Ver demonstração",
-    "loading": "Carregando projetos...",
-    "error": "Não foi possível carregar os projetos no momento."
+    "items": [
+      {
+        "name": "ProspecMan",
+        "tagline": "Transforma um briefing em pacote de projeto completo com IA",
+        "description": "Ferramenta que recebe um briefing de cliente em áudio ou texto e gera um pacote completo de projeto — arquitetura, stack, cronograma faseado e preço sugerido — pronto para abrir no VS Code. Disponível como CLI, API e apps mobile e web.",
+        "highlights": [
+          "Transcrição de áudio com Whisper (Groq) e análise de imagens com Claude Vision",
+          "Planejamento estruturado gerado por IA e validado como JSON com Pydantic",
+          "Precificação determinística a partir de horas estimadas e taxa horária",
+          "Em uso real: API em produção no Render e app Android usado diariamente"
+        ]
+      },
+      {
+        "name": "Rotineira",
+        "tagline": "App mobile que planeja cardápios semanais em família com IA",
+        "description": "Aplicativo mobile que usa IA para montar cardápios de marmitas semanais, calculando a porção exata de cada membro da família e gerando a lista de compras com o orçamento como limite rígido.",
+        "highlights": [
+          "Geração de cardápios com Gemini 2.5 Flash, priorizando pratos congeláveis",
+          "Perfis por membro da família (apetite, restrições alimentares, calorias)",
+          "Lista de compras consolidada por categoria, com estimativa de preços",
+          "Planos Free e Premium gerenciados via RevenueCat"
+        ]
+      },
+      {
+        "name": "Núcleo Estar Bem",
+        "tagline": "Sistema de agendamento de salas para clínica de psicologia",
+        "description": "Sistema de reservas para uma clínica de coworking onde psicólogos alugam salas de atendimento por hora, substituindo o controle manual por disponibilidade em tempo real e relatórios de ocupação.",
+        "highlights": [
+          "Bloqueios administrativos de horário e detecção automática de no-show",
+          "Relatórios de ocupação semanais e mensais exportados em PDF",
+          "Lembretes automáticos via WhatsApp (Baileys) e e-mails via SendGrid",
+          "Em produção: frontend Next.js na Vercel e API Fastify no Railway"
+        ]
+      },
+      {
+        "name": "Magnus Imóveis",
+        "tagline": "Plataforma imobiliária completa para uma imobiliária de BH",
+        "description": "Plataforma imobiliária que substituiu um sistema terceirizado pago por um site público e um painel administrativo próprios, sem depender de nenhum framework de frontend.",
+        "highlights": [
+          "Busca e filtros de imóveis, simulador de financiamento SAC e agendamento de visitas",
+          "Captação de leads com distribuição round-robin entre corretores",
+          "Painel admin instalável (PWA) com CRUD de imóveis e exportação de catálogo em PDF",
+          "Fallback para WhatsApp caso o envio ao banco de dados falhe, sem perder contato"
+        ]
+      },
+      {
+        "name": "MaPinha",
+        "tagline": "Mapa interativo gamificado para marcar pontos de interesse",
+        "description": "Mapa interativo para marcar e compartilhar pontos de interesse pessoais — do bar favorito ao restaurante preferido — com quatro temas visuais e rotas calculadas em tempo real.",
+        "highlights": [
+          "PWA com cache de mapas offline e busca com clusterização",
+          "Compartilhamento público com Open Graph e páginas renderizadas no servidor",
+          "Três agentes de IA (Claude) para categorização, descrição e recomendação de POIs",
+          "Em produção: frontend na Vercel e backend FastAPI no Render"
+        ]
+      }
+    ]
   },
   "Skills": {
     "title": "Habilidades",

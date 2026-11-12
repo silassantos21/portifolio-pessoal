@@ -1,37 +1,22 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
 
 import { ProjectCard } from "@/components/project-card";
 import { SectionHeading } from "@/components/section-heading";
-import type { Project } from "@/types/project";
+import { PROJECTS } from "@/data/projects";
+
+interface ProjectContent {
+  name: string;
+  tagline: string;
+  description: string;
+  highlights: string[];
+}
 
 export function ProjectsSection() {
   const t = useTranslations("Projects");
   const tNav = useTranslations("Nav");
-  const [projects, setProjects] = useState<Project[] | null>(null);
-  const [error, setError] = useState(false);
-
-  useEffect(() => {
-    let active = true;
-
-    fetch("/api/github")
-      .then((res) => {
-        if (!res.ok) throw new Error("request failed");
-        return res.json() as Promise<Project[]>;
-      })
-      .then((data) => {
-        if (active) setProjects(data);
-      })
-      .catch(() => {
-        if (active) setError(true);
-      });
-
-    return () => {
-      active = false;
-    };
-  }, []);
+  const items = t.raw("items") as ProjectContent[];
 
   return (
     <section
@@ -44,19 +29,16 @@ export function ProjectsSection() {
         subtitle={t("subtitle")}
       />
 
-      {error && <p className="mt-8 text-sm text-destructive">{t("error")}</p>}
-
-      {!error && !projects && (
-        <p className="mt-8 text-sm text-muted-foreground">{t("loading")}</p>
-      )}
-
-      {projects && projects.length > 0 && (
-        <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {projects.map((project, index) => (
-            <ProjectCard key={project.id} project={project} index={index} />
-          ))}
-        </div>
-      )}
+      <div className="mt-8 space-y-6">
+        {PROJECTS.map((project, index) => (
+          <ProjectCard
+            key={project.slug}
+            project={project}
+            content={items[index]}
+            index={index}
+          />
+        ))}
+      </div>
     </section>
   );
 }

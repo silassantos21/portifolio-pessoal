@@ -32,11 +32,66 @@
   },
   "Projects": {
     "title": "Projects",
-    "subtitle": "A selection of real repositories, fetched directly from GitHub.",
+    "subtitle": "A selection of real systems I built end to end, from briefing to production.",
     "viewCode": "View code",
     "viewDemo": "View demo",
-    "loading": "Loading projects...",
-    "error": "Could not load projects right now."
+    "items": [
+      {
+        "name": "ProspecMan",
+        "tagline": "Turns a client briefing into a full project package with AI",
+        "description": "A tool that takes a client briefing as audio or text and generates a complete project package — architecture, stack, phased schedule, and a suggested price — ready to open in VS Code. Available as a CLI, API, and mobile and web apps.",
+        "highlights": [
+          "Audio transcription with Whisper (Groq) and image analysis with Claude Vision",
+          "Structured AI-generated plan, validated as JSON with Pydantic",
+          "Deterministic pricing based on estimated hours and hourly rate",
+          "In real use: API running in production on Render, Android app used daily"
+        ]
+      },
+      {
+        "name": "Rotineira",
+        "tagline": "AI-powered mobile app for weekly family meal planning",
+        "description": "A mobile app that uses AI to plan weekly meal-prep menus, calculating each family member's exact portion and building a shopping list that treats the weekly budget as a hard limit.",
+        "highlights": [
+          "Menu generation with Gemini 2.5 Flash, focused on freezable meals",
+          "Per-member family profiles (appetite, dietary restrictions, calorie limits)",
+          "Shopping list consolidated by category, with price estimates",
+          "Free and Premium plans managed through RevenueCat"
+        ]
+      },
+      {
+        "name": "Núcleo Estar Bem",
+        "tagline": "Room-booking system for a psychology clinic",
+        "description": "A booking system for a coworking clinic where psychologists rent consultation rooms by the hour, replacing manual scheduling with real-time availability and occupancy reports.",
+        "highlights": [
+          "Admin-created time blocks and automatic no-show detection",
+          "Weekly and monthly occupancy reports exported as PDF",
+          "Automatic reminders via WhatsApp (Baileys) and emails via SendGrid",
+          "In production: Next.js frontend on Vercel, Fastify API on Railway"
+        ]
+      },
+      {
+        "name": "Magnus Imóveis",
+        "tagline": "Full real estate platform for a Belo Horizonte agency",
+        "description": "A real estate platform that replaced a paid third-party system with an in-house public site and admin panel, with no frontend framework at all.",
+        "highlights": [
+          "Property search and filters, SAC financing simulator, and visit scheduling",
+          "Lead capture with round-robin assignment across brokers",
+          "Installable admin panel (PWA) with property CRUD and PDF catalog export",
+          "Falls back to WhatsApp if the database write fails, so no lead is lost"
+        ]
+      },
+      {
+        "name": "MaPinha",
+        "tagline": "Gamified interactive map for personal points of interest",
+        "description": "An interactive map for marking and sharing personal points of interest — from a favorite bar to a go-to restaurant — with four visual themes and real-time route calculation.",
+        "highlights": [
+          "PWA with offline map caching and clustered search",
+          "Public sharing with Open Graph and server-rendered pages",
+          "Three Claude-based AI agents for categorization, description, and recommendations",
+          "In production: frontend on Vercel, FastAPI backend on Render"
+        ]
+      }
+    ]
   },
   "Skills": {
     "title": "Skills",

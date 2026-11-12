@@ -19,8 +19,7 @@ npm install
 
 ```bash
 cp .env.example .env.local
-# Edite .env.local com suas chaves (GITHUB_USERNAME é obrigatório
-# para a seção de Projetos funcionar em desenvolvimento)
+# Edite .env.local com suas chaves
 ```
 
 ## Desenvolvimento

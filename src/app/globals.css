@@ -105,6 +105,13 @@
     );
   }
 
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
   .marquee-mask {
     mask-image: linear-gradient(
       to right,
