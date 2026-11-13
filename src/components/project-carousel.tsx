@@ -51,7 +51,7 @@ export function ProjectCarousel({
       onFocus={() => setPaused(true)}
       onBlur={() => setPaused(false)}
     >
-      <div className="relative aspect-[4/3] w-full overflow-hidden rounded-xl border border-border/60 bg-muted sm:aspect-[16/11]">
+      <div className="relative aspect-[4/3] w-full overflow-hidden rounded-xl border border-border/60 bg-[radial-gradient(circle_at_50%_35%,hsl(var(--primary)/0.25),hsl(var(--card))_72%)] sm:aspect-[16/11]">
         <AnimatePresence mode="wait" initial={false}>
           <motion.div
             key={screenshots[index]}
